@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+// import {Route} from 'react-router-dom'
+import './Styles.css';
 
-class Navbar extends Component {
+class Arms extends Component {
     render() {
         return (
             <div>
@@ -10,4 +12,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default Arms;

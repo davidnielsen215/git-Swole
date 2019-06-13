@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+// import {Link} from 'react-router-dom'
+import './Styles.css'
 
-class Navbar extends Component {
+class Chest extends Component {
     render() {
         return (
             <div>
@@ -10,4 +12,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default Chest;
