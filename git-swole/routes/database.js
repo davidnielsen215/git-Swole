@@ -111,16 +111,46 @@ muscleInfo = [
         http://jap.physiology.org/content/ear...
         EMG graphs credit:
         http://suppversity.blogspot.ca/2011/0...`,
+        workout:"forearms",
+        instructions:`When it comes to growing big forearms and improving your grip strength, you need to consider the anatomy of the forearms in order to determine what the “best forearm workout” might be. In this video I’ll show you guys the best forearm exercises combined into a forearm workout to help boost your forearm size as well as your forearm strength (grip strength). This can be used as a forearm workout for mass but is also considered a grip strength workout given the inclusion of the suitcase holds and wrist rollers. 
+
+        If you guys enjoyed the video then don’t forget to give it a like, leave a comment, share it with your friends and subscribe to my channel. I really appreciate the support you’ve all shown me, it helps motivate me to continue doing this and putting out quality videos.
+        `
 
 
     },{
         muscle: 'Core',
-        instruction: '',
+        instruction: `If you want a well-defined, impressive looking six pack then you need to incorporate weighted abs exercises into your ab training routine! These exercises allow you to easily progressively overload your abs with weight in order to grow your abs and get them to “pop out” more. In this video I’ll be going through the 4 best weighted ab exercises, and show how you can incorporate them into an weighted ab routine. I often get asked if you should do ab exercises with weights, and in my opinion if you want your abs to “pop” then using a weighted ab routine is a must!
+
+        If you enjoyed the video, please don’t forget to give it a like and subscribe to my channel for more! You can also follow me on Instagram at @Jayethierfit`,
         reps: '',
         description: ''
     },{
         muscle: 'Legs',
-        instruction: '',
+        instruction: `In this video I’m going to be covering the “best” leg workout for mass and strong legs based on scientific literature and our understanding of the leg muscles. I’ll go through the most effective leg exercises that best activate the glutes, quadriceps, and hamstrings. These exercises are great for men and women, if your goal is leg hypertrophy (bigger legs) from your leg workouts. The four exercises I will discuss are the barbell back squat, front squat, Bulgarian split squat, and hip thrusts for glutes using a barbell. This combination of bilateral and unilateral leg exercises is ideal in order to add mass to the leg while correcting asymmetries that would be caused by only using bilateral exercises. Stick around until the end where I provide a full sample leg workout you guys can get started with right away.
+
+        If you guys enjoyed the video then don’t forget to give it a like, leave a comment, share it with your friends and subscribe to my channel. I really appreciate the support you’ve all shown me, it helps motivate me to continue doing this and putting out quality videos.
+        
+        FOLLOW ME FOR MORE:
+        https://www.instagram.com/jayethierfit/
+        https://www.facebook.com/Jeremyethier...
+        
+        Additional credits:
+        Pietro Boselli for the anatomy:
+        https://www.youtube.com/channel/UC1lS...
+        Jeff Nippard for the "science-based workout series" idea:
+        https://www.youtube.com/user/icecream...
+        
+        Studies:
+        Full ROM - https://www.ncbi.nlm.nih.gov/pubmed/2...
+        Full ROM - http://journals.lww.com/nsca-jscr/Cit...
+        Barbell vs Smith Machine Squats - https://www.ncbi.nlm.nih.gov/pubmed/1...
+        Bulgarian Split Squat EMG - https://www.ncbi.nlm.nih.gov/pubmed/2...
+        Bulgarian Split Squat 1RM - https://www.ncbi.nlm.nih.gov/pubmed/2...  
+        Legs Fiber Type - https://www.ncbi.nlm.nih.gov/pubmed/4...
+        Fiber type and load - https://www.ncbi.nlm.nih.gov/pubmed/1... 
+        Fiber type and load - http://jap.physiology.org/content/ear...
+        `,
         reps: '',
         description: ''
     }
