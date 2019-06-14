@@ -13,10 +13,8 @@ class App extends Component {
     return (
       <>
         
-        <Route path='/' component={Home} />
-        
           <Switch >
-            
+            <Route path='/Home' component={Home} />
             <Route path='/Arms' component={Arms} />
             <Route path='/Chest' component={Chest} />
             <Route path='/Back' component={Back} />

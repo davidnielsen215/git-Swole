@@ -1,13 +1,20 @@
 muscleInfo = [
     {
         muscle: 'Chest',
-        workout: 'Bench Press',
-        instruction: `The bench press is one of the most effective exercises for developing and strengthening the upper body. However, despite its effectiveness, it’s also the one exercise that lifters seem to have the most trouble with; primarily due to shoulder pain when benching or after benching. And in many cases, this is simply a result of various tweaks that need to be made in your bench press form. In this video, I’ll go through exactly how to bench without pain and how to permanently avoid shoulder pain when benching.
-        The first bench press form mistake people make that causes shoulder pain is failing to retract the shoulderblades throughout the press. Whenever we’re benching, we want to have our shoulder blades retracted or pinched together as if you were going to pinch a pencil between those blades. If we don’t have the shoulder blades retracted what actually tends to happen is the upper arm will round forward which can cause shoulder pain when benching. So what you want to do is before you press, depress your upper, and then pinch your shoulders blades together. Then, maintain this tightness by actively squeezing your shoulder blades together as you bench press, and avoid the mistake of opening up the shoulder blades and losing tightness at the bottom or as you push up.
-        Another common mistake contributing to shoulder pain while bench pressing is benching with a completely flat back. Although most people won’t need an exaggerated arch as seen with powerlifters, you do want to ensure there’s some arch present between in your upper back. And the reason for this is similar to what we saw with retracting your shoulder blades, as a slight arch in the upper back places the glenohumeral joint in an externally rotated, safer position. But to properly implement this while avoiding injury, note that you’re not simply arching your lower back. What you want to do is arch your upper back instead by retracting your shoulder blades as we previously discussed, and then raise your chest up towards the ceiling which will naturally create space between your back and the bench which you then want to maintain as a solid base of support for your press.
-        Next, to bench press without pain, you need to avoid the mistake of touching the bar too high on your chest while excessively flaring the elbows out at a 90 degree angle and pressing the bar straight up and down. This puts the shoulder in an internally rotated position and can thus cause pain when benching. So what you want to do is instead realize that the bar path of your bench press shouldn’t be straight up and down. It should actually start above your shoulder, come down to around the level of your sternum or nipple height and then curve diagonally back towards the starting point. And to achieve this without harming your shoulders, you need to tuck your elbows to roughly a 75-degree angle such that your elbows remain closer to the body and more or less directly under the bar throughout each rep. This will not only lead to a safer press, but a stronger one as well.
-        Lastly, avoid the bench press form mistake of not having your elbows stacked under the bar. This creates unnecessary torque on the shoulder joint which can then cause shoulder pain. If your elbows are unaligned when viewed from the front or back, then the problem is likely with your grip width that needs adjusting. If your elbows are unaligned when viewed from the side, then it’s likely that you’re overtucking your elbows too close to your sides when you press. So to fix this, you simply want to adjust the angle of your elbow during the press by flaring them out a little more such that they remain relatively underneath the bar.
-        Now if you want to see the best results then it’s vital that you not only choose the right exercises and variations, but that you also implement and progress them correctly within your routine. And this is exactly what my Built With Science programs do. They’re designed to be an all-in-one evidence-based program that optimizes all your training variables AND nutrition such that you’re able to progress as quickly as possible.
+        workout: 'Chest',
+        instruction: `When it comes to the “best chest workout”, it really comes down to choosing exercises that allow symmetrical growth in the upper chest, middle chest, and lower chest while still providing overall mass to your chest. If your chest workout is unbalanced and favours one portion of your chest over the other, overtime this will lead to imbalances and take away from the aesthetics of your chest. In this video I’ll show you guys the best workout for chest based on scientific literature and our anatomical understanding of the body. It includes the best upper chest exercises, middle chest exercises, and lower chest exercises to help evenly shape and build your chest. 
+
+        The upper chest will be prioritized through movements that involve shoulder flexion. The middle chest will be prioritized through any horizontal adducting movements that don’t involve shoulder flexion or extension. The lower chest will be prioritized through movements that involve shoulder extension. Although the chest exercises in this video have been carefully chosen through my analysis of many studies, it doesn’t account for every individual. So feel free to swap out some exercises for other chest exercises that you feel better chest activation with. 
+        
+        If you enjoyed this video then please don’t forget to give the video a like, leave a comment, share it around with your friends, and subscribe to my channel!
+        
+        FOLLOW ME:
+        Instagram: https://www.instagram.com/jayethierfit/
+        Facebook: https://www.facebook.com/Jeremyethier...
+        
+        Additional credits:
+        Pietro Boselli for the anatomy:
+        https://www.youtube.com/channel/UC1lS... 
         `,
         reps: '10',
         description: ''
@@ -65,15 +72,85 @@ muscleInfo = [
         Pietro Boselli for the anatomy:
         https://www.youtube.com/channel/UC1lS...
         Jeff Nippard for the "science-based workout series" idea:
-        https://www.youtube.com/user/icecream...`
+        https://www.youtube.com/user/icecream...`,
+        workout:"Shoulders",
+        instructions:`When it comes to the “best shoulder workout”, you have to consider training all three heads of the shoulder. These include the front delt, mid delt (or “side delt”) and the rear delt. These three heads are what really build huge shoulders and give a “3d shoulders” or “cannonball” look. Although all 3 heads will be activated to an extent during all shoulder exercises, as shown in the literature certain shoulder heads can be emphasized by choosing the right shoulder exercises and manipulating the way you perform them. It’s also important to note that the front delts already get sufficient activation in many pressing movements. Thus, you should focus more on the development of the lateral and posterior (mid and side) delts in order to build bigger delts. In this video I’ll go through the best shoulder exercises and the best shoulder workout for mass based on scientific literature and our anatomical understanding of the shoulder muscles. 
+
+        If you guys enjoyed the video then don’t forget to give it a like, leave a comment, share it with your friends and subscribe to my channel. I really appreciate the support you’ve all shown me, it helps motivate me to continue doing this and putting out quality videos.
+        
+        FOLLOW ME FOR MORE:
+        https://www.instagram.com/jayethierfit/
+        https://www.facebook.com/Jeremyethier...
+        
+        MUSIC:
+        https://soundcloud.com/lakeyinspired
+        “Memories with you” – Lakey Inspired
+        
+        Additional credits:
+        Pietro Boselli for the anatomy:
+        https://www.youtube.com/channel/UC1lS...
+        Jeff Nippard for the "science-based workout series" idea:
+        https://www.youtube.com/user/icecream...
+        
+        STUDIES:
+        Shoulder involvement in pressing movements:
+        https://www.researchgate.net/publicat...
+        https://www.ncbi.nlm.nih.gov/pubmed/2...
+        Posterior deltoid and injury:
+        https://www.ncbi.nlm.nih.gov/pubmed/1...
+        Behren & Buskies EMG study:
+        http://suppversity.blogspot.ca/2011/0...
+        Overhead press variations:
+        https://www.ncbi.nlm.nih.gov/pubmed/2...
+        Reverse pec deck:
+        https://www.ncbi.nlm.nih.gov/pubmed/2...
+        Upper traps:
+        https://www.ncbi.nlm.nih.gov/pubmed/1...
+        Fiber type:
+        https://www.ncbi.nlm.nih.gov/pubmed/1...
+        http://jap.physiology.org/content/ear...
+        EMG graphs credit:
+        http://suppversity.blogspot.ca/2011/0...`,
+        workout:"forearms",
+        instructions:`When it comes to growing big forearms and improving your grip strength, you need to consider the anatomy of the forearms in order to determine what the “best forearm workout” might be. In this video I’ll show you guys the best forearm exercises combined into a forearm workout to help boost your forearm size as well as your forearm strength (grip strength). This can be used as a forearm workout for mass but is also considered a grip strength workout given the inclusion of the suitcase holds and wrist rollers. 
+
+        If you guys enjoyed the video then don’t forget to give it a like, leave a comment, share it with your friends and subscribe to my channel. I really appreciate the support you’ve all shown me, it helps motivate me to continue doing this and putting out quality videos.
+        `
+
+
     },{
         muscle: 'Core',
-        instruction: '',
+        instruction: `If you want a well-defined, impressive looking six pack then you need to incorporate weighted abs exercises into your ab training routine! These exercises allow you to easily progressively overload your abs with weight in order to grow your abs and get them to “pop out” more. In this video I’ll be going through the 4 best weighted ab exercises, and show how you can incorporate them into an weighted ab routine. I often get asked if you should do ab exercises with weights, and in my opinion if you want your abs to “pop” then using a weighted ab routine is a must!
+
+        If you enjoyed the video, please don’t forget to give it a like and subscribe to my channel for more! You can also follow me on Instagram at @Jayethierfit`,
         reps: '',
         description: ''
     },{
         muscle: 'Legs',
-        instruction: '',
+        instruction: `In this video I’m going to be covering the “best” leg workout for mass and strong legs based on scientific literature and our understanding of the leg muscles. I’ll go through the most effective leg exercises that best activate the glutes, quadriceps, and hamstrings. These exercises are great for men and women, if your goal is leg hypertrophy (bigger legs) from your leg workouts. The four exercises I will discuss are the barbell back squat, front squat, Bulgarian split squat, and hip thrusts for glutes using a barbell. This combination of bilateral and unilateral leg exercises is ideal in order to add mass to the leg while correcting asymmetries that would be caused by only using bilateral exercises. Stick around until the end where I provide a full sample leg workout you guys can get started with right away.
+
+        If you guys enjoyed the video then don’t forget to give it a like, leave a comment, share it with your friends and subscribe to my channel. I really appreciate the support you’ve all shown me, it helps motivate me to continue doing this and putting out quality videos.
+        
+        FOLLOW ME FOR MORE:
+        https://www.instagram.com/jayethierfit/
+        https://www.facebook.com/Jeremyethier...
+        
+        Additional credits:
+        Pietro Boselli for the anatomy:
+        https://www.youtube.com/channel/UC1lS...
+        Jeff Nippard for the "science-based workout series" idea:
+        https://www.youtube.com/user/icecream...
+        
+        Studies:
+        Full ROM - https://www.ncbi.nlm.nih.gov/pubmed/2...
+        Full ROM - http://journals.lww.com/nsca-jscr/Cit...
+        Barbell vs Smith Machine Squats - https://www.ncbi.nlm.nih.gov/pubmed/1...
+        Bulgarian Split Squat EMG - https://www.ncbi.nlm.nih.gov/pubmed/2...
+        Bulgarian Split Squat 1RM - https://www.ncbi.nlm.nih.gov/pubmed/2...  
+        Legs Fiber Type - https://www.ncbi.nlm.nih.gov/pubmed/4...
+        Fiber type and load - https://www.ncbi.nlm.nih.gov/pubmed/1... 
+        Fiber type and load - http://jap.physiology.org/content/ear...
+        `,
         reps: '',
         description: ''
     }
