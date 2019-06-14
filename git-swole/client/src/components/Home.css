@@ -1,0 +1,8 @@
+.title {
+    /* align-content: center; */
+    /* position: absolute; */
+    width: 100vw;
+    display: grid;
+    justify-content: center; 
+
+}

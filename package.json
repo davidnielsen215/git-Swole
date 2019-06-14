@@ -1,0 +1,24 @@
+{
+  "name": "group-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Navbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidnielsen215/Insite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidnielsen215/Insite/issues"
+  },
+  "homepage": "https://github.com/davidnielsen215/Insite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
