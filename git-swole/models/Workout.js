@@ -14,3 +14,13 @@ const workoutSchema = new Schema ({
 })
 
 module.exports = mongoose.model('Workout', workoutSchema)
+
+
+//nameOfWorkout: string
+//muscle group: string
+//reps: number
+//set: number
+//description: string
+//comments: array containing strings
+
+

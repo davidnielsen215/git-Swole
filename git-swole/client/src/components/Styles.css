@@ -1,5 +1,6 @@
-body{
+* {
     margin: 0;
+    border: 0;
     color: black;
     background-color: rgb(128, 247, 177);
 }
@@ -18,6 +19,8 @@ body{
     padding-left: 40%;
 }
 .title-home {
+    margin-top: 50px;
+    margin: 1%;
     padding-top: 50px;
     padding-bottom: 50px;
     display: grid;
@@ -27,11 +30,33 @@ body{
     
 }
 .title-legs {
+    margin-top: 4%;
+    display: grid;
+    justify-content: center;
+}
+.title-arms {
+    margin-top: 4%;
+    display: grid;
+    justify-content: center;
+}
+.title-chest {
+    margin-top: 4%;
+    display: grid;
+    justify-content: center;
+}
+.title-back {
+    margin-top: 4%;
+    display: grid;
+    justify-content: center;
+}
+.title-core {
+    margin-top: 4%;
     display: grid;
     justify-content: center;
 }
 nav {
-    margin-top: 20%;
+    margin-top: 5%;
+
     text-align: center;
 }
 .legs-btn {
@@ -61,3 +86,138 @@ nav {
     text-align: center;
     margin: 5%;
 }   
+.back-vid-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 40vw;
+    background-color: gray;
+    margin-left: 15%;
+    margin-top: -55vh;
+    /* margin-right: 0; */
+    
+}
+.back-diagram-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 20vw;
+    background-color: gray;
+    margin-left: 60%;
+    margin-top: -55vh;
+}
+.back-description {
+    /* position: absolute; */
+    margin-left: 15%;
+    margin-top: 35%;
+    width: 70vw;
+    height: 10vh;
+}
+.core-vid-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 40vw;
+    background-color: gray;
+    margin-left: 15%;
+    margin-top: -55vh;
+    /* margin-right: 0; */
+    
+}
+.core-diagram-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 20vw;
+    background-color: gray;
+    margin-left: 60%;
+    margin-top: -55vh;
+}
+.core-description {
+    /* position: absolute; */
+    margin-left: 15%;
+    margin-top: 35%;
+    width: 70vw;
+    height: 10vh;
+}
+.chest-vid-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 40vw;
+    background-color: gray;
+    margin-left: 15%;
+    margin-top: -55vh;
+    /* margin-right: 0; */
+    
+}
+.chest-diagram-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 20vw;
+    background-color: gray;
+    margin-left: 60%;
+    margin-top: -55vh;
+}
+.chest-description {
+    /* position: absolute; */
+    margin-left: 15%;
+    margin-top: 35%;
+    width: 70vw;
+    height: 10vh;
+}
+.arms-vid-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 40vw;
+    background-color: gray;
+    margin-left: 15%;
+    margin-top: -55vh;
+    /* margin-right: 0; */
+    
+}
+.arms-diagram-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 20vw;
+    background-color: gray;
+    margin-left: 60%;
+    margin-top: -55vh;
+}
+.arms-description {
+    /* position: absolute; */
+    margin-left: 15%;
+    margin-top: 35%;
+    width: 70vw;
+    height: 10vh;
+}
+.legs-vid-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 40vw;
+    background-color: gray;
+    margin-left: 15%;
+    margin-top: -55vh;
+    /* margin-right: 0; */
+    
+}
+.legs-diagram-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 20vw;
+    background-color: gray;
+    margin-left: 60%;
+    margin-top: -55vh;
+}
+.legs-description {
+    /* position: absolute; */
+    margin-left: 15%;
+    margin-top: 35%;
+    width: 70vw;
+    height: 10vh;
+}
