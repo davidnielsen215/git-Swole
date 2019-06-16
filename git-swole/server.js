@@ -20,7 +20,7 @@ mongoose.connect(
 
 // Plural: Collection
 // Document: Single
-app.use("/workouts", require("./workoutRoutes"))
+app.use("/workouts", require("./routes/workoutRoutes"))
 
 
 app.listen(PORT, () => {

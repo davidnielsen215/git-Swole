@@ -12,30 +12,36 @@ muscleInfo = [
         set: "3",
         reps: "6-10",
         comments:[""],
+
         nameOfWorkout: "bench press",
         muscleGroup: "Chest",
         set: "3",
         reps: "6-10",
         comments:[""],
+
         nameOfWorkout: "dumbells bench press",
         muscleGroup: "Chest",
         set: "3",
         reps: "6-10",
         comments:[""],
+
         nameOfWorkout: "dips",
         muscleGroup: "Chest",
         set: "3",
         reps: "8-12",
         comments:[""],
+
         nameOfWorkout: "banded push-ups",
         muscleGroup: "Chest",
         set: "3",
         reps: "6-12 or to failure",
         comments:[""],
+
         nameOfWorkout: "cable crossover",
         muscleGroup: "Chest",
         set:"3",
-        reps: "10 +",        
+        reps: "10 +",    
+            
         description: `" When it comes to the “best chest workout”, it really comes down to choosing exercises that allow symmetrical growth in the upper chest, middle chest, and lower chest while still providing overall mass to your chest. If your chest workout is unbalanced and favours one portion of your chest over the other, overtime this will lead to imbalances and take away from the aesthetics of your chest. In this video I’ll show you guys the best workout for chest based on scientific literature and our anatomical understanding of the body. It includes the best upper chest exercises, middle chest exercises, and lower chest exercises to help evenly shape and build your chest. 
 
         The upper chest will be prioritized through movements that involve shoulder flexion. The middle chest will be prioritized through any horizontal adducting movements that don’t involve shoulder flexion or extension. The lower chest will be prioritized through movements that involve shoulder extension. Although the chest exercises in this video have been carefully chosen through my analysis of many studies, it doesn’t account for every individual. So feel free to swap out some exercises for other chest exercises that you feel better chest activation with."`, 
@@ -47,6 +53,7 @@ muscleInfo = [
         set: "3",
         reps: "6-8",
         comments:[""],
+        
         muscle: 'Back',
         nameOfWorkout: "Pull-Ups",
         muscleGroup: "Back",
