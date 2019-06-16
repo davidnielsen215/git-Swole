@@ -12,10 +12,21 @@ class Back extends Component {
                 <nav className='home-btn'>
                     <Link to="/Home">Home</Link>
                 </nav>
-                    <h1>Back is  DOPE</h1> 
+                    <h1 className='title-back'>
+                        Git Back Yolked
+                    </h1> 
+                    <div>
+                        <div className="back-vid-container">
+                            container
+                        </div>
+                        <div className="back-diagram-container">
+                            Diagram
+                        </div>
+                        <h3 className="back-description"> Description: alkdfklndkdsafadsfdsfhhaishfdjadshkfjh asdjkfhjkasdh fdsf dsfhdaskjfhiadshfi asudhfkjadshfkjdhsjkfhasdslfnkladslnkfla dksnflkadsnflkndslkfnk;ladsnflkdsnflkdsnf;lkndsklnfkladsnfkljdasnfkjesiofjioejnf</h3>
+                    </div>
             
                     
-                </div>
+            </div>
            
         );
     }

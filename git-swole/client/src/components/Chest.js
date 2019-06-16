@@ -12,10 +12,19 @@ class Chest extends Component {
                 <nav className='home-btn'>
                     <Link to="/Home">Home</Link>
                 </nav>
-                    <h1>Chest ARE DOPE</h1> 
+                <h1 className='title-chest'> Git Chest Yoked</h1> 
+                <div>
+                    <div className="chest-vid-container">
+                        container
+                    </div>
+                    <div className="chest-diagram-container">
+                        Diagram
+                    </div>
+                    <h3 className="chest-description"> Description: alkdfklndkdsafadsfdsfhhaishfdjadshkfjh asdjkfhjkasdh fdsf dsfhdaskjfhiadshfi asudhfkjadshfkjdhsjkfhasdslfnkladslnkfla dksnflkadsnflkndslkfnk;ladsnflkdsnflkdsnf;lkndsklnfkladsnfkljdasnfkjesiofjioejnf</h3>
+                </div>
             
                     
-                </div>
+            </div>
            
         );
     }

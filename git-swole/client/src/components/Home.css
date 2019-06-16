@@ -6,3 +6,69 @@
     justify-content: center; 
 
 }
+.legs-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightslategray;
+}
+.arms-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightslategray;
+}
+.back-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightslategray;
+}
+.chest-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightslategray;
+}
+.core-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightslategray;
+}
+.link-icon {
+    position: absolute;
+    height: 7%;
+    width: 5%;
+    /* margin-left: 30%; */
+    margin-left: -15%;
+    margin-top: 0%;
+}
+.github-icon {
+    position: absolute;
+    height: 7%;
+    width: 5%;
+    margin-left: -10%;
+    
+    /* margin-left: 30%; */
+    /* margin-top: -4.5%; */
+    /* margin-top: 13%; */
+}
+.portfolio-icon {
+    position: absolute;
+    height: 7%;
+    width: 5%;
+    margin-left: -5%;
+    /* margin-left: 0%; */
+}
+.icon-container {
+    display: grid;
+    justify-content: center;
+    margin-right: -15%;
+    margin-top: 15%;
+}

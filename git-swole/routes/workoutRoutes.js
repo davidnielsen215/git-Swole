@@ -4,7 +4,7 @@ const Workout = require('../models/Workout.js')
 
 workoutRouter.route('/')
 
-    .get((req, res) => {
+    .get((request, response) => {
         Workout.find((err, workouts)=> {
             if(err){
                 return response.status(500).send(err)
@@ -13,7 +13,7 @@ workoutRouter.route('/')
         })
     })
 
-    .post((req, res) => {
+    .post((request, response) => {
         const newWorkout = new Workout(request.body)
         newWorkout.save((err, new_workout) =>{
             if(err) {
@@ -25,7 +25,7 @@ workoutRouter.route('/')
 
     workoutRouter.route('/:id')
 
-    .get((req, res) =>{
+    .get((req, response) =>{
         Workout.findById(request.params.id, (err, workout) => {
             if(err) {
                 return response.status(500).send(err)
@@ -34,7 +34,7 @@ workoutRouter.route('/')
         })
     })
 
-    .delete((req, res) => {
+    .delete((req, response) => {
         Workout.findByIdAndDelete(request.params.id, (err, workout) => {
             if(err) {
                 return response.status(500).send(err)
@@ -43,7 +43,7 @@ workoutRouter.route('/')
         })
     })
 
-    .put((req, ers) => {
+    .put((req, response) => {
         Workout.findByIdAndUpdate(request.params.id, request.body, {new: true}, 
             (err, workout) => {
             if(err) {
