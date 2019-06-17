@@ -1,11 +1,11 @@
 muscleInfo = [
     {
         //nameOfWorkout: string
-//muscle group: string
-//reps: number
-//set: number
-//description: string
-//comments: array containing strings
+        //muscle group: string
+        //reps: number
+        //set: number
+        //description: string
+        //comments: array containing strings
 
         nameOfWorkout: "incline dumbell press",
         muscleGroup: "Chest",
@@ -75,11 +75,7 @@ muscleInfo = [
         set: "3",
         reps: "8 +",
         comments:[""],
-        description: `"In this video I discuss the best back training workout that utilizes exercises for a big back, as well as exercises for a wider back based on current scientific literature and our anatomical understanding of the back muscles. It’s important that you not only choose the right exercises when performing a back workout for mass, but to also perform these exercises in the correct fashion to target the right muscles. If you’re looking to add more mass, depth, and width to your upper back and lower back while targeting muscles that are important for scapular and shoulder stability, then this is the best back workout video for you. 
-
-        Within the video I’m going to discuss 5 exercises that I believe are essential to grow a powerful and attractive looking back: the deadlift, pull-up, chest-supported row, lat pulldown, and scapular pull-up. 
-        
-        I will go through each of these exercises and show the muscle anatomy worked in each exercise, as well as the best variations of these exercises based on current research. It’s also equally important that you are targeting the right back muscles when you perform each of these exercises. I discuss a few “cues” and tips that have helped me minimize the involvement of secondary muscles and focus on using my back throughout each movement."`,
+        description: `"In this video I discuss the best back training workout that utilizes exercises for a big back, as well as exercises for a wider back based on current scientific literature and our anatomical understanding of the back muscles. It’s important that you not only choose the right exercises when performing a back workout for mass, but to also perform these exercises in the correct fashion to target the right muscles. If you’re looking to add more mass, depth, and width to your upper back and lower back while targeting muscles that are important for scapular and shoulder stability, then this is the best back workout video for you. Within the video I’m going to discuss 5 exercises that I believe are essential to grow a powerful and attractive looking back: the deadlift, pull-up, chest-supported row, lat pulldown, and scapular pull-up. I will go through each of these exercises and show the muscle anatomy worked in each exercise, as well as the best variations of these exercises based on current research. It’s also equally important that you are targeting the right back muscles when you perform each of these exercises. I discuss a few “cues” and tips that have helped me minimize the involvement of secondary muscles and focus on using my back throughout each movement."`,
     },{
         nameOfWorkout: "chin-ups",
         muscleGroup: "Biceps",

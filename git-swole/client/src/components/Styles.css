@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     border: 0;
     color: black;
     background-color: rgb(128, 247, 177);
@@ -87,13 +88,11 @@ nav {
     margin: 5%;
 }   
 .back-vid-container {
-    position: absolute;
     display: inline-grid;
-    height: 40vh;
-    width: 40vw;
+    height: 30vh;
+    width: 80vw;
     background-color: gray;
-    margin-left: 15%;
-    margin-top: -55vh;
+    margin-left: 10%;
     /* margin-right: 0; */
     
 }
@@ -108,24 +107,27 @@ nav {
 }
 .back-description {
     /* position: absolute; */
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 35%;
     width: 70vw;
     height: 10vh;
 }
+.back-p {
+    margin: 10%;
+}
 .core-vid-container {
-    position: absolute;
+    /* position: absolute; */
     display: inline-grid;
-    height: 40vh;
-    width: 40vw;
+    height: 30vh;
+    width: 80vw;
     background-color: gray;
-    margin-left: 15%;
-    margin-top: -55vh;
+    margin-left: 10%;
+    /* margin-top: 0vh; */
     /* margin-right: 0; */
     
 }
 .core-diagram-container {
-    position: absolute;
+    /* position: absolute; */
     display: inline-grid;
     height: 40vh;
     width: 20vw;
@@ -135,73 +137,59 @@ nav {
 }
 .core-description {
     /* position: absolute; */
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 35%;
     width: 70vw;
     height: 10vh;
 }
-.chest-vid-container {
-    position: absolute;
+.core-p {
+    margin: 10%;
+}
+.title2-chest {
     display: inline-grid;
-    height: 40vh;
-    width: 40vw;
-    background-color: gray;
-    margin-left: 15%;
-    margin-top: -55vh;
+    justify-content: center;
+    margin: 10%;
+}
+.chest-vid-container {
+    display: inline-grid;
+    height: 30vh;
+    width: 80vw;
+    /* background-color: gray; */
+    margin-left: 10%;
     /* margin-right: 0; */
     
 }
 .chest-diagram-container {
-    position: absolute;
+    /* position: absolute; */
     display: inline-grid;
     height: 40vh;
     width: 20vw;
-    background-color: gray;
+    /* background-color: gray; */
     margin-left: 60%;
     margin-top: -55vh;
 }
 .chest-description {
     /* position: absolute; */
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 35%;
     width: 70vw;
-    height: 10vh;
+    height: 5vh;
 }
-.arms-vid-container {
-    position: absolute;
+.chest-p {
+    margin: 10%;
+}
+.title2-legs {
     display: inline-grid;
-    height: 40vh;
-    width: 40vw;
-    background-color: gray;
-    margin-left: 15%;
-    margin-top: -55vh;
-    /* margin-right: 0; */
-    
-}
-.arms-diagram-container {
-    position: absolute;
-    display: inline-grid;
-    height: 40vh;
-    width: 20vw;
-    background-color: gray;
-    margin-left: 60%;
-    margin-top: -55vh;
-}
-.arms-description {
-    /* position: absolute; */
-    margin-left: 15%;
-    margin-top: 35%;
-    width: 70vw;
-    height: 10vh;
+    justify-content: center;
+    margin: 10%;
+    width: 80vw;
 }
 .legs-vid-container {
-    position: absolute;
     display: inline-grid;
-    height: 40vh;
-    width: 40vw;
+    height: 30vh;
+    width: 80vw;
     background-color: gray;
-    margin-left: 15%;
-    margin-top: -55vh;
+    margin-left: 10%;
     /* margin-right: 0; */
     
 }
@@ -216,8 +204,11 @@ nav {
 }
 .legs-description {
     /* position: absolute; */
-    margin-left: 15%;
-    margin-top: 35%;
+    margin-left: 10%;
+    margin-top: 20%;
     width: 70vw;
-    height: 10vh;
+    /* height: 5vh; */
+}
+.legs-p {
+    margin: 10%;
 }

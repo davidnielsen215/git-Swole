@@ -18,10 +18,12 @@ constructor (props) {
             e.preventDefault()
 
             this.setState({
-                muslce: ''
+                comment: ''
             })
 
-            axios.get(`http://`)
+            axios.put(`http://`).then(response => {
+                console.log(response.data)
+            })
             
         }
     
