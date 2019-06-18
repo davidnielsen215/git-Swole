@@ -9,6 +9,13 @@ import Legs from './components/Legs'
 
 import './components/Styles.css'
 class App extends Component {
+
+  //ComponentDidMount(){
+    // get request to '/'
+  //}
+
+
+
   render() {
     return (
       <>

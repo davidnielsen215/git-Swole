@@ -19,13 +19,13 @@ workoutRouter.route('/')
             if(err) {
                 return response.status(500).send(err)
             }
-            return response.status(200).send(new_workout)
+            return response.status(201).send(new_workout)
         })
     })
 
     workoutRouter.route('/:id')
 
-    .get((req, response) =>{
+    .get((request, response) =>{
         Workout.findById(request.params.id, (err, workout) => {
             if(err) {
                 return response.status(500).send(err)
@@ -34,7 +34,7 @@ workoutRouter.route('/')
         })
     })
 
-    .delete((req, response) => {
+    .delete((request, response) => {
         Workout.findByIdAndDelete(request.params.id, (err, workout) => {
             if(err) {
                 return response.status(500).send(err)
@@ -43,7 +43,7 @@ workoutRouter.route('/')
         })
     })
 
-    .put((req, response) => {
+    .put((request, response) => {
         Workout.findByIdAndUpdate(request.params.id, request.body, {new: true}, 
             (err, workout) => {
             if(err) {
