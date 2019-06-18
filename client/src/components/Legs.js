@@ -12,7 +12,7 @@ class Legs extends Component {
             <div>
                 
                 <nav className='home-btn'>
-                    <Link to="/Home">Home</Link>
+                    <Link to="/">Home</Link>
                 </nav>
                 <h1 className="title-legs">Git Legs Yoked</h1> 
                 <div>

@@ -13,7 +13,7 @@ class Arms extends Component {
             <div>
                 
                 <nav className='home-btn'>
-                    <Link to="/Home">Home</Link>
+                    <Link to="/">Home</Link>
                 </nav>
                 <h1 className="title-arms">Git Arms Yoked</h1> 
                 <div>

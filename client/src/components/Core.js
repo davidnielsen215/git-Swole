@@ -11,7 +11,7 @@ class Core extends Component {
             <div>
                  
                  <nav className='home-btn'>
-                    <Link to="/Home">Home</Link>
+                    <Link to="/">Home</Link>
                 </nav>
                     <h1 className="title-core">
                         Git Core Yolked

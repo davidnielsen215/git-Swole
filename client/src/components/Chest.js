@@ -12,7 +12,7 @@ class Chest extends Component {
             <div>
                 
                 <nav className='home-btn'>
-                    <Link to="/Home">Home</Link>
+                    <Link to="/">Home</Link>
                 </nav>
                     <h1 className='title-chest'> Git Chest Yoked</h1> 
                     <div>

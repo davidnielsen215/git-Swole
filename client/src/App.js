@@ -21,12 +21,12 @@ class App extends Component {
       <>
           
           <Switch >
-            <Route path='/Home' component={Home} />
-            <Route path='/Arms' component={Arms} />
-            <Route path='/Chest' component={Chest} />
-            <Route path='/Back' component={Back} />
-            <Route path='/Core' component={Core} />
-            <Route path='/Legs' component={Legs} />
+            <Route exact path='/' component={Home} />
+            <Route path='/arms' component={Arms} />
+            <Route path='/chest' component={Chest} />
+            <Route path='/back' component={Back} />
+            <Route path='/core' component={Core} />
+            <Route path='/legs' component={Legs} />
            
 
           </Switch>

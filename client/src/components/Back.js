@@ -12,7 +12,7 @@ class Back extends Component {
             <div>
                 
                 <nav className='home-btn'>
-                    <Link to="/Home">Home</Link>
+                    <Link to="/">Home</Link>
                 </nav>
                     <h1 className='title-back'>Git Back Yolked</h1> 
                     <div>

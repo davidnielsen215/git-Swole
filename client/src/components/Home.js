@@ -1,12 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import Arms from './Arms'
-import Back from './Back'
-import Chest from './Chest'
-import Core from './Core'
-import Legs from './Legs'
-
 import FaBeer from 'react-icons/lib/fa/github-square'
 import FaBook from 'react-icons/lib/fa/book'
 import FaLink from 'react-icons/lib/fa/linkedin-square'
@@ -25,11 +19,11 @@ class Home extends Component {
                 
                 
                 <nav>
-                    <Link className="legs-btn" to='/Legs' component={Legs}>Legs page</Link>
-                    <Link className="arms-btn" to='/Arms' component={Arms}>Arms page</Link>
-                    <Link className="back-btn" to='/Back' component={Back}>Back page</Link>
-                    <Link className="chest-btn" to='/Chest' component={Chest}>Chest page</Link>
-                    <Link className="core-btn" to='/Core' component={Core}>Core page</Link>
+                    <Link className="legs-btn" to='/legs'>Legs page</Link>
+                    <Link className="arms-btn" to='/arms'>Arms page</Link>
+                    <Link className="back-btn" to='/back'>Back page</Link>
+                    <Link className="chest-btn" to='/chest'>Chest page</Link>
+                    <Link className="core-btn" to='/core'>Core page</Link>
                 </nav>
                 
                 <div className="icon-container">
