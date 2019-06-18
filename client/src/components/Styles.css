@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: black;
+    background-color: rgb(128, 247, 177);
+}
+
+.home-btn {
+    display: grid;
+    justify-content: right;
+    margin-right: 3%;
+    margin-top: 1%;
+    
+    
+}
+.dumbell{
+    justify-content: center;
+    justify-items: center;
+    padding-left: 40%;
+}
+.title-home {
+    margin-top: 50px;
+    margin: 1%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    font-size: 70px;
+    border: 3px solid black;
+    
+}
+.title-legs {
+    margin-top: 4%;
+    display: grid;
+    justify-content: center;
+}
+.title-arms {
+    margin-top: 4%;
+    display: grid;
+    justify-content: center;
+}
+.title-chest {
+    margin-top: 4%;
+    display: grid;
+    justify-content: center;
+}
+.title-back {
+    margin-top: 4%;
+    display: grid;
+    justify-content: center;
+}
+.title-core {
+    margin-top: 4%;
+    display: grid;
+    justify-content: center;
+}
+nav {
+    margin-top: 5%;
+
+    text-align: center;
+}
+.legs-btn {
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+}
+.arms-btn {
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+    
+}
+.back-btn {
+    display: inline-block;
+    justify-content: center;
+    margin: 5%;
+}
+.chest-btn {
+    display: inline-block;
+    justify-content: center;
+    margin: 5%;
+    
+}
+.core-btn {
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+}   
+.back-vid-container {
+    display: inline-grid;
+    height: 30vh;
+    width: 80vw;
+    background-color: gray;
+    margin-left: 10%;
+    /* margin-right: 0; */
+    
+}
+.back-diagram-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 20vw;
+    background-color: gray;
+    margin-left: 60%;
+    margin-top: -55vh;
+}
+.back-description {
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 35%;
+    width: 70vw;
+    height: 10vh;
+}
+.back-p {
+    margin: 10%;
+}
+.core-vid-container {
+    /* position: absolute; */
+    display: inline-grid;
+    height: 30vh;
+    width: 80vw;
+    background-color: gray;
+    margin-left: 10%;
+    /* margin-top: 0vh; */
+    /* margin-right: 0; */
+    
+}
+.core-diagram-container {
+    /* position: absolute; */
+    display: inline-grid;
+    height: 40vh;
+    width: 20vw;
+    background-color: gray;
+    margin-left: 60%;
+    margin-top: -55vh;
+}
+.core-description {
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 35%;
+    width: 70vw;
+    height: 10vh;
+}
+.core-p {
+    margin: 10%;
+}
+.title2-chest {
+    display: inline-grid;
+    justify-content: center;
+    margin: 10%;
+}
+.chest-vid-container {
+    display: inline-grid;
+    height: 30vh;
+    width: 80vw;
+    /* background-color: gray; */
+    margin-left: 10%;
+    /* margin-right: 0; */
+    
+}
+.chest-diagram-container {
+    /* position: absolute; */
+    display: inline-grid;
+    height: 40vh;
+    width: 20vw;
+    /* background-color: gray; */
+    margin-left: 60%;
+    margin-top: -55vh;
+}
+.chest-description {
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 35%;
+    width: 70vw;
+    height: 5vh;
+}
+.chest-p {
+    margin: 10%;
+}
+.title2-legs {
+    display: inline-grid;
+    justify-content: center;
+    margin: 10%;
+    width: 80vw;
+}
+.legs-vid-container {
+    display: inline-grid;
+    height: 30vh;
+    width: 80vw;
+    background-color: gray;
+    margin-left: 10%;
+    /* margin-right: 0; */
+    
+}
+.legs-diagram-container {
+    position: absolute;
+    display: inline-grid;
+    height: 40vh;
+    width: 20vw;
+    background-color: gray;
+    margin-left: 60%;
+    margin-top: -55vh;
+}
+.legs-description {
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 70vw;
+    /* height: 5vh; */
+}
+.legs-p {
+    margin: 10%;
+}

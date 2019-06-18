@@ -1,0 +1,103 @@
+.title-arms {
+    display: inline-grid;
+    justify-content: center;
+}
+.title2-bi {
+    height: 10%;
+    width: 100%;
+    display: inline-grid;
+    justify-content: center;
+    margin-top: 10%;
+}
+.bi-vid-container {
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+    /* height: 30vh; */
+    /* width: 80vw; */
+    /* background-color: gray; */
+    /* margin-left: 10%; */
+    /* margin-right: 0; */
+    
+}
+.bi-diagram-container {
+    
+}
+.bi-description {
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 70vw;
+    height: 5vh;
+}
+.bi-p {
+    margin: 10%;
+}
+.title2-tri {
+    display: inline-grid;
+    justify-content: center;
+}
+.tri-vid-container {
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+    
+}
+.tri-diagram-container {
+    
+}
+.tri-description {
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 70vw;
+    height: 5vh;
+}
+.tri-p {
+    margin: 10%;
+}
+.title2-shoulders {
+    display: inline-grid;
+    justify-content: center;
+}
+.shoulders-vid-container {
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+}
+.shoulders-diagram-container {
+   
+}
+.shoulders-description {
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 70vw;
+    height: 5vh;
+}
+.shoulders-p {
+    margin: 10%;
+}
+.title2-forearms {
+    display: inline-grid;
+    justify-content: center;
+}
+.forearms-vid-container {
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+    
+}
+.forearms-diagram-container {
+    
+}
+.forearms-description {
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 70vw;
+    height: 5vh;
+}
+.forearms-p {
+    margin: 10%;
+}
