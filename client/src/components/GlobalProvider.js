@@ -39,7 +39,7 @@ constructor (props) {
         
     
 }
-}
+
 
 export default GlobalProvider
 
