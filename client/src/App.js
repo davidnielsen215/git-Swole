@@ -27,11 +27,7 @@ class App extends Component {
             <Route path='/back' component={Back} />
             <Route path='/core' component={Core} />
             <Route path='/legs' component={Legs} />
-           
-
           </Switch>
-        
-
       </>
     );
   }

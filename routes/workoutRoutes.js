@@ -5,6 +5,7 @@ const Workout = require('../models/Workout.js')
 workoutRouter.route('/')
 
     .get((request, response) => {
+        console.log("fire")
         Workout.find((err, workouts)=> {
             if(err){
                 return response.status(500).send(err)
