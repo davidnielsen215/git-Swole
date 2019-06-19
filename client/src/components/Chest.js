@@ -7,6 +7,17 @@ import './Styles.css'
 
 
 class Chest extends Component {
+    constructor(props) {
+        super(props) 
+        this.state = {
+            isHidden: true
+        }
+    }
+    toggleHidden () {
+        this.setState({
+            isHidden: !this.state.isHidden
+        })
+    }
     render() {
         return (
             <div>
@@ -33,6 +44,10 @@ class Chest extends Component {
                         {/* <div className="chest-diagram-container">
                             <img className='' alt='' src='' />
                         </div> */}
+                        <div>
+                            <button onClick={this.toggleHidden.bind(this)} type="button">Display</button>
+                            {!this.state.isHidden && <Child />}
+                        </div>
                         <h3 className="chest-description"> Description:</h3>
                         <p className='chest-p'>
                             When it comes to the “best chest workout”, it really comes down to choosing 
@@ -54,12 +69,17 @@ class Chest extends Component {
                             chest activation with.
                         </p>
                     </div>
-            
+                    
                     
             </div>
            
         );
     }
 }
+const Child = () => (
+    <div className='modal'>
+        hello world
+    </div>
+)
 
 export default Chest;
