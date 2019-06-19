@@ -2,23 +2,29 @@
     margin: 0;
     padding: 0;
     border: 0;
-    color: white;
+    /* color: white; */
     /* background-color: rgb(128, 247, 177); */
 }
 .container {
     background: url(https://i.pinimg.com/originals/96/6a/7b/966a7b0fa51a0e145aa6b2fe8cd56923.jpg) no-repeat center center fixed;
     height: 110%;
     margin-top: -10px;
+    color: white;
 
 }
 .button {
     justify-content: center;
     display: inline-grid;
+    width: 14%;
     background-color: gray;
-    margin-left: 15%;
-    margin-top: 300px;
+    margin: 5%;
+    /* margin-left: 5%; */
+    /* margin-top: 300px; */
     padding: 2%;
     
+}
+.button-div {
+    margin-top: -200px;
 }
 .background-img {
     background-size: cover;
@@ -122,15 +128,27 @@ nav {
     display: inline-block;
     text-align: center;
     margin: 5%;
-}   
+} 
+.title2-back {
+    display: inline-grid;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
 .back-vid-container {
     display: inline-grid;
+    justify-content: center;
+    /* width: 100%; */
     height: 30vh;
-    width: 80vw;
-    background-color: gray;
-    margin-left: 10%;
+    width: 100vw;
+    /* background-color: gray; */
+    /* margin-left: 10%; */
     /* margin-right: 0; */
     
+}
+div.button-div {
+    padding-top: 200px;
 }
 .back-diagram-container {
     position: absolute;
@@ -144,7 +162,7 @@ nav {
 .back-description {
     /* position: absolute; */
     margin-left: 10%;
-    margin-top: 35%;
+    /* margin-top: ; */
     width: 70vw;
     height: 10vh;
 }
@@ -186,7 +204,8 @@ nav {
 .title2-chest {
     display: inline-grid;
     justify-content: center;
-    margin: 10%;
+    /* margin: 10%; */
+    width: 100%;
 }
 .chest-vid-container {
     display: inline-grid;
@@ -251,4 +270,42 @@ nav {
 }
 .legs-p {
     margin: 10%;
+}
+.workout-container {
+    display: inline-grid;
+    width: 100%;
+    height: 20%;
+    background-color: purple;
+
+}
+.workout {
+    /* position: absolute; */
+}
+.workout2 {
+    /* position: absolute; */
+    display: inline-grid;
+    width: 20%;
+    height: 20%;
+    background-color: green;
+    
+}
+.workout3 {
+    /* position: absolute; */
+    display: inline-grid;
+    width: 20%;
+    height: 20%;
+    background-color: blue;
+   
+}
+.workout4 {
+    /* position: absolute; */
+    width: 100%;
+}
+.workout5 {
+    /* position: absolute; */
+    width: 100%;
+}
+.workout6 {
+    position: absolute;
+    width: 100%;
 }

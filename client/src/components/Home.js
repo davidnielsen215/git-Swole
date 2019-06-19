@@ -9,9 +9,9 @@ import FaLink from 'react-icons/lib/fa/linkedin-square'
 import './Home.css'
 class Home extends Component {
 
-    componentDidMount(){
-       this.props.handleGetWorkouts()
-    }
+    // componentDidMount(){
+    //    this.props.handleGetWorkouts()
+    // }
 
     render() {
         console.log(this.props)

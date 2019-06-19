@@ -14,12 +14,35 @@ class GlobalProvider extends Component {
                 reps: '',
                 comments: "",
                 _id: '',
-                Chest: {},
+                chestWorkout: {},
                 chestWorkout2: {},
                 chestWorkout3: {},
                 chestWorkout4: {},
                 chestWorkout5: {},
-                chestWorkout6: {}
+                chestWorkout6: {},
+                backWorkout: {},
+                backWorkout2: {},
+                backWorkout3: {},
+                backWorkout4: {},
+                backWorkout5: {},
+                biWorkout: {},
+                biWorkout2: {},
+                biWorkout3: {},
+                biWorkout4: {},
+                triWorkout: {},
+                triWorkout2: {},
+                triWorkout3: {},
+                triWorkout4: {},
+                shoulderWorkout: {},
+                shoulderWorkout2: {},
+                shoulderWorkout3: {},
+                shoulderWorkout4: {},
+                shoulderWorkout5: {},
+                forearmsWorkout: {},
+                forearmsWorkout2: {},
+                forearmsWorkout3: {},
+                forearmsWorkout4: {},
+                
             }
     }
         // handleSave = () => {
@@ -95,7 +118,269 @@ class GlobalProvider extends Component {
             }))
 
         })
-    }          
+    }
+     
+    handleGetBack = () => {
+        console.log("fired")
+        axios.get('/workouts/5d08034a203856c212f3b739').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                backWorkout: res.data
+            }))
+
+        })
+    }       
+    handleGetBack2 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080452203856c212f3b73a').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                backWorkout2: res.data
+            }))
+
+        })
+    }       
+    handleGetBack3 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080469203856c212f3b73b').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                backWorkout3: res.data
+            }))
+
+        })
+    }       
+    handleGetBack4 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d08047a203856c212f3b73c').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                backWorkout4: res.data
+            }))
+
+        })
+    }       
+    handleGetBack5 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080483203856c212f3b73d').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                backWorkout5: res.data
+            }))
+
+        })
+    } 
+    handleGetBi = () => {
+        console.log("fired")
+        axios.get('/workouts/5d0805a4203856c212f3b73e').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                biWorkout: res.data
+            }))
+
+        })
+    }                              
+    handleGetBi2 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d0805b9203856c212f3b73f').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                biWorkout2: res.data
+            }))
+
+        })
+    }                              
+    handleGetBi3 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d0805c6203856c212f3b740').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                biWorkout3: res.data
+            }))
+
+        })
+    }                              
+    handleGetBi4 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d0805ce203856c212f3b741').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                biWorkout4: res.data
+            }))
+
+        })
+    }  
+    handleGetTri = () => {
+        console.log("fired")
+        axios.get('/workouts/5d0806fb203856c212f3b742').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                triWorkout: res.data
+            }))
+
+        })
+    }                                   
+    handleGetTri2 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080722203856c212f3b743').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                triWorkout2: res.data
+            }))
+
+        })
+    }                                   
+    handleGetTri3 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d08072f203856c212f3b744').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                triWorkout3: res.data
+            }))
+
+        })
+    }                                   
+    handleGetTri4 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080737203856c212f3b745').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                triWorkout4: res.data
+            }))
+
+        })
+    }
+    handleGetShoulder5 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080877203856c212f3b749').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                shoulderWorkout5: res.data
+            }))
+
+        })
+    }                                          
+    handleGetShoulder2 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080887203856c212f3b74a').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                shoulderWorkout2: res.data
+            }))
+
+        })
+    }                                          
+    handleGetShoulder3 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080892203856c212f3b74b').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                shoulderWorkout3: res.data
+            }))
+
+        })
+    }                                          
+    handleGetShoulder4 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d08089d203856c212f3b74c').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                shoulderWorkout4: res.data
+            }))
+
+        })
+    } 
+    //standing overhead press                                         
+    handleGetShoulder = () => {
+        console.log("fired")
+        axios.get('/workouts/5d08085d203856c212f3b748').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                shoulderWorkout: res.data
+            }))
+
+        })
+    }                                          
+    handleGetForearms = () => {
+        console.log("fired")
+        axios.get('/workouts/5d0809d80d2edfc2c6a19068').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                ForearmsWorkout: res.data
+            }))
+
+        })
+    }                                          
+    handleGetForearms2 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d0809f00d2edfc2c6a19069').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                ForearmsWorkout2: res.data
+            }))
+
+        })
+    }                                          
+    handleGetForearms3 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d0809fe0d2edfc2c6a1906a').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                ForearmsWorkout3: res.data
+            }))
+
+        })
+    }                                          
+    handleGetForearms4 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080a080d2edfc2c6a1906b').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                ForearmsWorkout4: res.data
+            }))
+
+        })
+    }                                          
+    handleGetCore = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080a080d2edfc2c6a1906b').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                coreWorkout: res.data
+            }))
+
+        })
+    }                                          
+    handleGetCore2 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080a080d2edfc2c6a1906b').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                coreWorkout2: res.data
+            }))
+
+        })
+    }                                          
+    handleGetCore3 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080a080d2edfc2c6a1906b').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                coreWorkout3: res.data
+            }))
+
+        })
+    }                                          
+    handleGetCore4 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080a080d2edfc2c6a1906b').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                coreWorkout4: res.data
+            }))
+
+        })
+    }                                          
     render(){
         return (
             <Provider value={{
@@ -106,7 +391,28 @@ class GlobalProvider extends Component {
                 handleGetChest4: this.handleGetChest4,
                 handleGetChest5: this.handleGetChest5,
                 handleGetChest6: this.handleGetChest6,
-
+                handleGetBack: this.handleGetBack,
+                handleGetBack2: this.handleGetBack2,
+                handleGetBack3: this.handleGetBack3,
+                handleGetBack4: this.handleGetBack4,
+                handleGetBack5: this.handleGetBack5,
+                biWorkout: this.handleGetBi,
+                biWorkout2: this.handleGetBi2,
+                biWorkout3: this.handleGetBi3,
+                biWorkout4: this.handleGetBi4,
+                triWorkout: this.handleGetTri,
+                triWorkout2: this.handleGetTri2,
+                triWorkout3: this.handleGetTri3,
+                triWorkout4: this.handleGetTri4,
+                shoulderWorkout: this.handleGetShoulder,
+                shoulderWorkout2: this.handleGetShoulder2,
+                shoulderWorkout3: this.handleGetShoulder3,
+                shoulderWorkout4: this.handleGetShoulder4,
+                shoulderWorkout5: this.handleGetShoulder5,
+                forearmsWorkout: this.handleGetForearms,
+                forearmsWorkout2: this.handleGetForearms2,
+                forearmsWorkout3: this.handleGetForearms3,
+                forearmsWorkout4: this.handleGetForearms4,
                 
                 
             }}>
