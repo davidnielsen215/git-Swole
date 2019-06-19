@@ -1,13 +1,13 @@
 const express = require ('express')
 const app = express()
-const morgan = require('morgan')
+// const morgan = require('morgan')
 const mongoose = require('mongoose')
 const PORT = 7000
 
 
 app.use(express.json())
 
-app.use(morgan('dev'))
+// app.use(morgan('dev'))
 
 mongoose.connect('mongodb://localhost:27017/swoledb', {useNewUrlParser: true},
 () => {console.log('Connected to the DB')})

@@ -33,7 +33,15 @@ class GlobalProvider extends Component {
         console.log("fired")
         axios.get(`/workouts`).then(res =>{
             this.setState(prevState => ({
-                works:[res.data,...prevState.works]
+                works: [res.data,...prevState.works],
+                chest: res.data.filter(workout => workout.muscle === 'Chest'),
+                back: res.data.filter(workout => workout.muscle === "Back"),
+                biceps: res.data.filter(workout => workout.muscle === 'Biceps'),
+                triceps: res.data.filter(workout => workout.muscle === "Triceps"),
+                shoulders: res.data.filter(workout => workout.muscle === "Shoulder"),
+                forearms: res.data.filter(workout => workout.muscle === "Forearms"),
+                core: res.data.filter(workout => workout.muscle === "Core"),
+                legs: res.data.filter(workout => workout.muscle === "Legs")
             }))
 
         })

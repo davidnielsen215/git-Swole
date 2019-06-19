@@ -15,16 +15,15 @@ workoutRouter.get('/', (req, res, next) => {
         return res.status(200).send(workouts)
         
     })
-})
+})// axios.get("/workout/musclegroup?muscle=${userchose}")
 
-workoutRouter.post('/new', (req, res, next) => {
-    const newWorkout = new Workout(req.body) 
-    newWorkout.save((err, newSavedWorkout) => {
+workoutRouter.get('/musclegroup', (req, res, next) => {
+    Workout.find({muscle: req.query.muscle},(err, workouts) =>{
         if(err){
             res.status(500)
             return res.send(err)
         }
-        return res.status(201).send(newSavedWorkout)
+        return res.status(201).send(Workouts)
     })
 })
 
