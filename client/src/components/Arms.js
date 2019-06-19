@@ -8,6 +8,16 @@ import './Arms.css'
 
 
 class Arms extends Component {
+    constructor(props) {
+        super(props)
+        this.stat = {
+            title: 'title',
+            muscle: "muscle",
+            set: "set",
+            reps: "reps",
+            comments: "comments"
+        }
+    }
     render() {
         return (
             <div>
