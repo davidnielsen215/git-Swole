@@ -15,7 +15,7 @@ mongoose.connect('mongodb://localhost:27017/swoledb', {useNewUrlParser: true},
 app.use('/workouts', require('./routes/workoutRouter.js'))
 
 app.listen(PORT, () => {
-    console.log(`Server is runningn on port ${PORT}`)
+    console.log(`Server is running on port ${PORT}`)
 })
 
 // const express = require ("express")
