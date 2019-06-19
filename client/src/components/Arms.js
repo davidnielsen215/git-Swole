@@ -180,7 +180,7 @@ class Arms extends Component {
                     {/* <div className="shoulders-diagram-container">
                         <img className='' alt='' src='' />
                     </div> */}
-                    <div className="button-div">
+                    <nav className="button-div">
                         <button className="button" onClick={this.props.handleGetShoulder} >Incline Dumbell Press</button>
                         <button className="button" onClick={this.props.handleGetShoulder2} >Bench Press</button>
                         <button className="button" onClick={this.props.handleGetShoulder3} >Dumbell Bench Press</button>
@@ -188,7 +188,7 @@ class Arms extends Component {
                         <button className="button" onClick={this.props.handleGetShoulder5} >Banded Push-ups</button>
 
                         {/* {!this.state.isHidden && <Child />} */}
-                    </div>
+                    </nav>
                     <div>
                         <div className="workout">
                             <h2 className="title-work" >{ this.props.shoulderWorkout.title}</h2>
