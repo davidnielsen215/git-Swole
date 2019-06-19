@@ -234,4 +234,4 @@ muscleInfo = [
     }
 ]
 
-muscleInfo = module.exports
+module.exports = muscleInfo

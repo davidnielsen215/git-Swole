@@ -4,10 +4,12 @@ import { Link} from 'react-router-dom'
 
 import Iframe from 'react-iframe'
 import './Styles.css'
+import {withProvider} from "./GlobalProvider"
 
 
 class Legs extends Component {
     render() {
+        console.log(this.props)
         return (
             <div>
                 
@@ -55,4 +57,4 @@ class Legs extends Component {
     }
 }
 
-export default Legs;
+export default withProvider(Legs);
