@@ -17,6 +17,29 @@ workoutRouter.get('/', (req, res, next) => {
     })
 })
 
+// axios.get("/workout/musclegroup?muscle=${userchose}")
+
+workoutRouter.get('/musclegroup', (req, res, next) => {
+    Workout.find({muscle: req.query.muscle},(err, workouts) => {
+        if(err){
+            res.status(500)
+            return res.send(err)
+        }
+        return res.status(200).send(workouts)
+        
+    })
+})
+
+workoutRouter.get('/:_id', (req, res, next) => {
+    Workout.findOne({_id: req.params._id}, (err, workout) => {
+        if(err) {
+            res.status(500)
+            return res.send(err)
+        }
+        return res.status(200).send(workout)
+    })
+})
+
 workoutRouter.post('/new', (req, res, next) => {
     const newWorkout = new Workout(req.body) 
     newWorkout.save((err, newSavedWorkout) => {

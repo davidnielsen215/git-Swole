@@ -13,6 +13,7 @@ class GlobalProvider extends Component {
                 set: '',
                 reps: '',
                 comments: "",
+                chestWorkout: {}
             }
     }
         // handleSave = () => {
@@ -29,11 +30,12 @@ class GlobalProvider extends Component {
         //     this.setState({
         //         muscle: ''
         //     })
-    handleGetWorkouts = () => {
+    handleGetChest = () => {
         console.log("fired")
-        axios.get(`/workouts`).then(res =>{
+        axios.get(`/workouts/5d0a69ae5377af0853adfe36`).then(res =>{
+            console.log(res.data)
             this.setState(prevState => ({
-                works:[res.data,...prevState.works]
+                chestWorkout: res.data
             }))
 
         })
@@ -42,7 +44,7 @@ class GlobalProvider extends Component {
         return (
             <Provider value={{
                 ...this.state,
-                handleGetWorkouts: this.handleGetWorkouts,
+                handleGetChest: this.handleGetChest,
                 
                 
             }}>

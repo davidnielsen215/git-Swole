@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link} from 'react-router-dom'
 // import Home from './Home'
 
+import { withProvider } from './GlobalProvider'
 import Iframe from 'react-iframe'
 import './Styles.css'
 
@@ -31,6 +32,7 @@ class Chest extends Component {
                             <br />
                             <h1 className="title2-chest">Chest</h1>
                             <br />
+                            <h1>{ this.props.chestWorkout.title}</h1>
                             <div>
                                 <Iframe 
                                     width="560" 
@@ -45,8 +47,9 @@ class Chest extends Component {
                             <img className='' alt='' src='' />
                         </div> */}
                         <div>
-                            <button onClick={this.toggleHidden.bind(this)} type="button">Display</button>
-                            {!this.state.isHidden && <Child />}
+                            <button onClick={this.props.handleGetChest} type="button">Display</button>
+
+                            {/* {!this.state.isHidden && <Child />} */}
                         </div>
                         <h3 className="chest-description"> Description:</h3>
                         <p className='chest-p'>
@@ -76,10 +79,10 @@ class Chest extends Component {
         );
     }
 }
-const Child = () => (
-    <div className='modal'>
-        hello world
-    </div>
-)
+// const Child = () => (
+//     <div className='modal'>
+//         {/* hello world */}
+//     </div>
+// )
 
-export default Chest;
+export default withProvider(Chest);
