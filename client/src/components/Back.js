@@ -2,14 +2,21 @@ import React, { Component } from 'react';
 import { Link} from 'react-router-dom'
 // import Home from './Home'
 
+import { withProvider } from './GlobalProvider'
 import Iframe from 'react-iframe'
 import './Styles.css'
 
 
 class Back extends Component {
+    constructor(props) {
+        super(props) 
+        this.state = {
+            isHidden: true
+        }
+    }
     render() {
         return (
-            <div>
+            <div className="container">
                 
                 <nav className='home-btn'>
                     <Link to="/">Home</Link>
@@ -31,6 +38,42 @@ class Back extends Component {
                     {/* <div className="back-diagram-container">
                         <img className='' alt='' src='' />
                     </div> */}
+                    <div className="button-div">
+                        <button className="button" onClick={this.props.handleGetBack} >Deadlifts</button>
+                        <button className="button" onClick={this.props.handleGetBack2} >Bench Press</button>
+                        <button className="button" onClick={this.props.handleGetBack3} >Dumbell Bench Press</button>
+                        <button className="button" onClick={this.props.handleGetBack4} >Dips</button>
+                        <button className="button" onClick={this.props.handleGetBack5} >Banded Push-ups</button>
+
+                        {/* {!this.state.isHidden && <Child />} */}
+                    </div>
+                    <div className="workout-container">
+                        <div className="workout">
+                            <h2 className="title-work">{this.props.backWorkout.title}</h2>
+                            <h4 className="set-work" >{this.props.backWorkout.set}</h4>
+                            <h4 className="reps-work" >{ this.props.backWorkout.reps }</h4>
+                        </div>
+                        <div className="workout2">
+                            <h2 className="title-work">{ this.props.backWorkout2.title}</h2>
+                            <h4 className="set-work">{ this.props.backWorkout2.set}</h4>
+                            <h4 className="reps-work">{ this.props.backWorkout.reps}</h4>
+                        </div>
+                        <div className="workout3">
+                            <h2 className="title-work" >{this.props.backWorkout3.title}</h2>
+                            <h4 className="set-work" >{this.props.backWorkout3.set}</h4>
+                            <h4 className="reps-work" >{ this.props.backWorkout3.reps }</h4>
+                        </div>
+                        <div className="workout4">
+                            <h2 className="title-work" >{ this.props.backWorkout4.title}</h2>
+                            <h4 className="set-work" >{this.props.backWorkout4.set}</h4>
+                            <h4 className="reps-work" >{ this.props.backWorkout4.reps }</h4>
+                        </div>
+                        <div className="workout5">
+                            <h2 className="title-work" >{ this.props.backWorkout5.title}</h2>
+                            <h4 className="set-work" >{`${'Sets:'} ${this.props.backWorkout5.set}`}</h4>
+                            <h4 className="reps-work" >{ `${'Reps:'} ${this.props.backWorkout5.reps}` }</h4>
+                        </div>
+                    </div>
                     <h3 className="back-description"> Description:</h3>
                     <p className='back-p'>
                         In this video I discuss the best back training workout that utilizes 
@@ -62,4 +105,4 @@ class Back extends Component {
     }
 }
 
-export default Back;
+export default withProvider(Back);

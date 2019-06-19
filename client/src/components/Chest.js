@@ -35,11 +35,11 @@ class Chest extends Component {
                     </nav>
                         <h1 className='title-chest'> Git Chest Yoked</h1> 
                         <div>
-                            <div className="chest-vid-container">
+                            <div>
                                 <br />
                                 <h1 className="title2-chest">Chest</h1>
                                 <br />
-                                <div>
+                                <div className="chest-vid-container">
                                     <Iframe 
                                         width="560" 
                                         height="315" 
@@ -52,7 +52,7 @@ class Chest extends Component {
                             {/* <div className="chest-diagram-container">
                                 <img className='' alt='' src='' />
                             </div> */}
-                            <div>
+                            <div className="button-div">
                                 <button className="button" onClick={this.props.handleGetChest} >Incline Dumbell Press</button>
                                 <button className="button" onClick={this.props.handleGetChest2} >Bench Press</button>
                                 <button className="button" onClick={this.props.handleGetChest3} >Dumbell Bench Press</button>
@@ -64,9 +64,9 @@ class Chest extends Component {
                             </div>
                             <div>
                                 <div className="workout">
-                                    <h2 className="title-work" >{ this.props.Chest.title}</h2>
-                                    <h4 className="set-work" >{this.props.Chest.set}</h4>
-                                    <h4 className="reps-work" >{ this.props.Chest.reps }</h4>
+                                    <h2 className="title-work" >{ this.props.chestWorkout.title}</h2>
+                                    <h4 className="set-work" >{this.props.chestWorkout.set}</h4>
+                                    <h4 className="reps-work" >{ this.props.chestWorkout.reps }</h4>
                                 </div>
                                 <div className="workout2">
                                     <h2 className="title-work">{ this.props.chestWorkout2.title}</h2>
