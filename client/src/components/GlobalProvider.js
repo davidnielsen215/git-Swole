@@ -13,7 +13,13 @@ class GlobalProvider extends Component {
                 set: '',
                 reps: '',
                 comments: "",
-                chestWorkout: {}
+                _id: '',
+                Chest: {},
+                chestWorkout2: {},
+                chestWorkout3: {},
+                chestWorkout4: {},
+                chestWorkout5: {},
+                chestWorkout6: {}
             }
     }
         // handleSave = () => {
@@ -32,7 +38,7 @@ class GlobalProvider extends Component {
         //     })
     handleGetChest = () => {
         console.log("fired")
-        axios.get(`/workouts/5d0a69ae5377af0853adfe36`).then(res =>{
+        axios.get('/workouts/5d07bf1ab119f4afc302da56').then(res =>{
             console.log(res.data)
             this.setState(prevState => ({
                 chestWorkout: res.data
@@ -40,11 +46,67 @@ class GlobalProvider extends Component {
 
         })
     }         
+    handleGetChest2 = () => {
+        axios.get(`/workouts/5d08027b203856c212f3b734`).then(res =>{
+            console.log("fired2")
+            console.log(res.data)
+            this.setState(prevState => ({
+                chestWorkout2: res.data
+            }))
+            
+        })
+    }
+    handleGetChest3 = () => {
+        console.log("fired")
+        axios.get(`/workouts/5d0802ac203856c212f3b735`).then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                chestWorkout3: res.data
+            }))
+
+        })
+    }        
+    handleGetChest4 = () => {
+        console.log("fired")
+        axios.get(`/workouts/5d0802ca203856c212f3b736`).then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                chestWorkout4: res.data
+            }))
+
+        })
+    }        
+    handleGetChest5 = () => {
+        console.log("fired")
+        axios.get(`/workouts/5d0802de203856c212f3b737`).then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                chestWorkout5: res.data
+            }))
+
+        })
+    }
+    handleGetChest6 = () => {
+        console.log("fired")
+        axios.get(`/workouts/5d0802e9203856c212f3b738`).then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                chestWorkout6: res.data
+            }))
+
+        })
+    }          
     render(){
         return (
             <Provider value={{
                 ...this.state,
                 handleGetChest: this.handleGetChest,
+                handleGetChest2: this.handleGetChest2,
+                handleGetChest3: this.handleGetChest3,
+                handleGetChest4: this.handleGetChest4,
+                handleGetChest5: this.handleGetChest5,
+                handleGetChest6: this.handleGetChest6,
+
                 
                 
             }}>

@@ -2,8 +2,44 @@
     margin: 0;
     padding: 0;
     border: 0;
-    color: black;
-    background-color: rgb(128, 247, 177);
+    color: white;
+    /* background-color: rgb(128, 247, 177); */
+}
+.container {
+    background: url(https://i.pinimg.com/originals/96/6a/7b/966a7b0fa51a0e145aa6b2fe8cd56923.jpg) no-repeat center center fixed;
+    height: 110%;
+    margin-top: -10px;
+
+}
+.button {
+    justify-content: center;
+    display: inline-grid;
+    background-color: gray;
+    margin-left: 15%;
+    margin-top: 300px;
+    padding: 2%;
+    
+}
+.background-img {
+    background-size: cover;
+}
+.title-work {
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%
+}
+.set-work {
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%
+}
+.reps-work{
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%
 }
 
 .home-btn {
@@ -154,8 +190,10 @@ nav {
 }
 .chest-vid-container {
     display: inline-grid;
+    justify-content: center;
     height: 30vh;
     width: 80vw;
+    /* position: absolute; */
     /* background-color: gray; */
     margin-left: 10%;
     /* margin-right: 0; */
@@ -173,7 +211,7 @@ nav {
 .chest-description {
     /* position: absolute; */
     margin-left: 10%;
-    margin-top: 35%;
+    margin-top: 5%;
     width: 70vw;
     height: 5vh;
 }
