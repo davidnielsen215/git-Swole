@@ -36,7 +36,6 @@ class GlobalProvider extends Component {
                 works:[res.data,...prevState.works]
             }))
 
-<<<<<<< HEAD
         })
     }         
     render(){
@@ -52,15 +51,6 @@ class GlobalProvider extends Component {
         )  
     }
 }
-=======
-            
-            
-        }
-        
-    
-}
-
->>>>>>> master
 
 
 export default GlobalProvider
