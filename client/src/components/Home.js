@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import {withProvider} from "./GlobalProvider"
 
 import FaBeer from 'react-icons/lib/fa/github-square'
 import FaBook from 'react-icons/lib/fa/book'
@@ -7,9 +8,13 @@ import FaLink from 'react-icons/lib/fa/linkedin-square'
 
 import './Home.css'
 class Home extends Component {
-    
+
+    componentDidMount(){
+       this.props.handleGetWorkouts()
+    }
 
     render() {
+        console.log(this.props)
         return (
             <div>
                 <h1 className='title-home'>
@@ -54,4 +59,4 @@ class Home extends Component {
         );
     }
 }
-export default Home;
+export default withProvider(Home);
