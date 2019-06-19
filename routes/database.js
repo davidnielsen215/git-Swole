@@ -1,6 +1,6 @@
 muscleInfo = [
     {
-        title: "incline dumbell press",
+        title: "Incline Dumbell Press",
         muscle: "Chest",
         set: "3",
         reps: "6-10",
