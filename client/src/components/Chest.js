@@ -33,6 +33,7 @@ class Chest extends Component {
                             <h1 className="title2-chest">Chest</h1>
                             <br />
                             <h1>{ this.props.chestWorkout.title}</h1>
+                            <h3>{ this.props.chestWorkout.rep }</h3>
                             <div>
                                 <Iframe 
                                     width="560" 

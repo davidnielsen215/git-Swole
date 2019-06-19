@@ -19,6 +19,17 @@ workoutRouter.get('/', (req, res, next) => {
 
 // axios.get("/workout/musclegroup?muscle=${userchose}")
 
+// workoutRouter.get('/musclegroup', (req, res, next) => {
+//     Workout.find({muscle: req.query.muscle},(err, workouts) => {
+//         if(err){
+//             res.status(500)
+//             return res.send(err)
+//         }
+//         return res.status(200).send(workouts)
+        
+//     })
+// })
+
 workoutRouter.get('/musclegroup', (req, res, next) => {
     Workout.find({muscle: req.query.muscle},(err, workouts) => {
         if(err){
