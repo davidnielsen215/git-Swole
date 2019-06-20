@@ -12,7 +12,7 @@ class Legs extends Component {
     render() {
         console.log(this.props)
         return (
-            <div>
+            <div >
                 
                 <nav className='home-btn'>
                     <Link to="/">Home</Link>
