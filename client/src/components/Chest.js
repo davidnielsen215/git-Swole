@@ -65,33 +65,45 @@ class Chest extends Component {
                             <div className="workout-container">
                                 <div className="workout">
                                     <h2 className="title-work" >{ this.props.chestWorkout.title}</h2>
-                                    <h4 className="set-work" >{this.props.chestWorkout.set}</h4>
-                                    <h4 className="reps-work" >{ this.props.chestWorkout.reps }</h4>
+                                    <h4 className="set-work" >Sets: <br /> <br />
+                                    {this.props.chestWorkout.set}</h4>
+                                    <h4 className="reps-work" >Reps: <br /> <br />
+                                    { this.props.chestWorkout.reps }</h4>
                                 </div>
                                 <div className="workout2">
                                     <h2 className="title-work">{ this.props.chestWorkout2.title}</h2>
-                                    <h4 className="set-work">{ this.props.chestWorkout2.set}</h4>
-                                    <h4 className="reps-work">{ this.props.chestWorkout2.reps}</h4>
+                                    <h4 className="set-work">Sets: <br /> <br />
+                                    { this.props.chestWorkout2.set}</h4>
+                                    <h4 className="reps-work">Reps: <br /> <br />
+                                    { this.props.chestWorkout2.reps}</h4>
                                 </div>
                                 <div className="workout3">
                                     <h2 className="title-work" >{this.props.chestWorkout3.title}</h2>
-                                    <h4 className="set-work" >{this.props.chestWorkout3.set}</h4>
-                                    <h4 className="reps-work" >{ this.props.chestWorkout3.reps }</h4>
+                                    <h4 className="set-work" >Sets: <br /> <br />
+                                    {this.props.chestWorkout3.set}</h4>
+                                    <h4 className="reps-work" >Reps: <br /> <br />
+                                    { this.props.chestWorkout3.reps }</h4>
                                 </div>
                                 <div className="workout4">
                                     <h2 className="title-work" >{ this.props.chestWorkout4.title}</h2>
-                                    <h4 className="set-work" >{this.props.chestWorkout4.set}</h4>
-                                    <h4 className="reps-work" >{ this.props.chestWorkout4.reps }</h4>
+                                    <h4 className="set-work" >Sets: <br /> <br />
+                                    {this.props.chestWorkout4.set}</h4>
+                                    <h4 className="reps-work" >Reps: <br /> <br />
+                                    { this.props.chestWorkout4.reps }</h4>
                                 </div>
                                 <div className="workout5">
                                     <h2 className="title-work" >{ this.props.chestWorkout5.title}</h2>
-                                    <h4 className="set-work" >{this.props.chestWorkout5.set}</h4>
-                                    <h4 className="reps-work" >{ this.props.chestWorkout5.reps }</h4>
+                                    <h4 className="set-work" >Sets: <br /> <br />
+                                    {this.props.chestWorkout5.set}</h4>
+                                    <h4 className="reps-work" >Reps: <br /> <br />
+                                    { this.props.chestWorkout5.reps }</h4>
                                 </div>
                                 <div className="workout6">
                                     <h2 className="title-work" >{ this.props.chestWorkout6.title}</h2>
-                                    <h4 className="set-work" >{this.props.chestWorkout6.set}</h4>
-                                    <h4 className="reps-work" >{ this.props.chestWorkout6.reps }</h4>
+                                    <h4 className="set-work" >Sets: <br /> <br />
+                                    {this.props.chestWorkout6.set}</h4>
+                                    <h4 className="reps-work" >Reps: <br /> <br />
+                                    { this.props.chestWorkout6.reps }</h4>
                                 </div>
                             </div>
                             <h3 className="chest-description"> Description:</h3>

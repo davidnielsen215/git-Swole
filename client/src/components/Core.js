@@ -9,7 +9,7 @@ import './Styles.css'
 class Core extends Component {
     render() {
         return (
-            <div>
+            <div className="container">
                  
                  <nav className='home-btn'>
                     <Link to="/">Home</Link>
@@ -35,38 +35,53 @@ class Core extends Component {
                         <img className='' alt='' src='' />
                     </div> */}
                     <nav className="button-div">
-                        <button className="button" onClick={this.props.handleGetCore} >Deadlifts</button>
-                        <button className="button" onClick={this.props.handleGetCore2} >Bench Press</button>
-                        <button className="button" onClick={this.props.handleGetCore3} >Dumbell Bench Press</button>
-                        <button className="button" onClick={this.props.handleGetCore4} >Dips</button>
+                        <button className="button" onClick={this.props.handleGetCore} >Weighted Hanging Leg Raises</button>
+                        <button className="button" onClick={this.props.handleGetCore2} >AB Pulldowns</button>
+                        <button className="button" onClick={this.props.handleGetCore3} >Cable Wood-Choppers</button>
+                        <button className="button" onClick={this.props.handleGetCore4} >Flutter-Kicks</button>
                        
                         {/* {!this.state.isHidden && <Child />} */}
                     </nav>
                     <div className="workout-container">
                         <div className="workout">
-                            <h2 className="title-work">{this.props.coreWorkout.title}</h2>
-                            <h4 className="set-work" >{this.props.coreWorkout.set}</h4>
-                            <h4 className="reps-work" >{ this.props.coreWorkout.reps }</h4>
+                            <h2 className="title-work">
+                            {this.props.coreWorkout.title}</h2>
+                            <h4 className="set-work" >Sets: <br /> <br />
+                            {this.props.coreWorkout.set}</h4>
+                            <h4 className="reps-work" >Reps: <br /> <br />
+                            { this.props.coreWorkout.reps }</h4>
                         </div>
                         <div className="workout2">
-                            <h2 className="title-work">{ this.props.coreWorkout2.title}</h2>
-                            <h4 className="set-work">{ this.props.coreWorkout2.set}</h4>
-                            <h4 className="reps-work">{ this.props.coreWorkout.reps}</h4>
+                            <h2 className="title-work">
+                            { this.props.coreWorkout2.title}</h2>
+                            <h4 className="set-work">Sets: <br /> <br />
+                            { this.props.coreWorkout2.set}</h4>
+                            <h4 className="reps-work">Reps: <br /> <br />
+                            { this.props.coreWorkout.reps}</h4>
                         </div>
                         <div className="workout3">
-                            <h2 className="title-work" >{this.props.coreWorkout3.title}</h2>
-                            <h4 className="set-work" >{this.props.coreWorkout3.set}</h4>
-                            <h4 className="reps-work" >{ this.props.coreWorkout3.reps }</h4>
+                            <h2 className="title-work" >
+                            {this.props.coreWorkout3.title}</h2>
+                            <h4 className="set-work" >Sets: <br /> <br />
+                            {this.props.coreWorkout3.set}</h4>
+                            <h4 className="reps-work" >Reps: <br /> <br />
+                            { this.props.coreWorkout3.reps }</h4>
                         </div>
                         <div className="workout4">
-                            <h2 className="title-work" >{ this.props.coreWorkout4.title}</h2>
-                            <h4 className="set-work" >{this.props.coreWorkout4.set}</h4>
-                            <h4 className="reps-work" >{ this.props.coreWorkout4.reps }</h4>
+                            <h2 className="title-work" > 
+                            { this.props.coreWorkout4.title}</h2>
+                            <h4 className="set-work" >Sets: <br /> <br />
+                            {this.props.coreWorkout4.set}</h4>
+                            <h4 className="reps-work" >Reps: <br /> <br />
+                            { this.props.coreWorkout4.reps }</h4>
                         </div>
                         <div className="workout5">
-                            <h2 className="title-work" >{ this.props.coreWorkout5.title}</h2>
-                            <h4 className="set-work" >{this.props.coreWorkout5.set}</h4>
-                            <h4 className="reps-work" >{ this.props.coreWorkout5.reps }</h4>
+                            <h2 className="title-work" > 
+                            { this.props.coreWorkout5.title}</h2>
+                            <h4 className="set-work" > Sets: <br /> <br />
+                            {this.props.coreWorkout5.set}</h4>
+                            <h4 className="reps-work" > Reps: <br /> <br />
+                            { this.props.coreWorkout5.reps }</h4>
                         </div>
                     </div>
                     <h3 className="core-description"> Description:</h3>
