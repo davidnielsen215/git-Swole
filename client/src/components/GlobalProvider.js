@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import axios from "axios"
 
-const {Consumer, Provider } = React.createContext()
+const { Consumer, Provider } = React.createContext()
 
 class GlobalProvider extends Component {
     constructor (props) {
@@ -456,32 +456,32 @@ class GlobalProvider extends Component {
                 handleGetBack3: this.handleGetBack3,
                 handleGetBack4: this.handleGetBack4,
                 handleGetBack5: this.handleGetBack5,
-                biWorkout: this.handleGetBi,
-                biWorkout2: this.handleGetBi2,
-                biWorkout3: this.handleGetBi3,
-                biWorkout4: this.handleGetBi4,
-                triWorkout: this.handleGetTri,
-                triWorkout2: this.handleGetTri2,
-                triWorkout3: this.handleGetTri3,
-                triWorkout4: this.handleGetTri4,
-                shoulderWorkout: this.handleGetShoulder,
-                shoulderWorkout2: this.handleGetShoulder2,
-                shoulderWorkout3: this.handleGetShoulder3,
-                shoulderWorkout4: this.handleGetShoulder4,
-                shoulderWorkout5: this.handleGetShoulder5,
-                forearmsWorkout: this.handleGetForearms,
-                forearmsWorkout2: this.handleGetForearms2,
-                forearmsWorkout3: this.handleGetForearms3,
-                forearmsWorkout4: this.handleGetForearms4,
-                coreWorkout: this.handleGetCore,
-                coreWorkout2: this.handleGetCore2,
-                coreWorkout3: this.handleGetCore3,
-                coreWorkout4: this.handleGetCore4,
-                coreWorkout5: this.handleGetCore5,
-                legsWorkout: this.handleGetLegs,
-                legsWorkout2: this.handleGetLegs2,
-                legsWorkout3: this.handleGetLegs3,
-                legsWorkout4: this.handleGetLegs4,
+                handleGetBi: this.handleGetBi,
+                handleGetBi2: this.handleGetBi2,
+                handleGetBi3: this.handleGetBi3,
+                handleGetBi4: this.handleGetBi4,
+                handleGetTri: this.handleGetTri,
+                handleGetTri2: this.handleGetTri2,
+                handleGetTri3: this.handleGetTri3,
+                handleGetTri4: this.handleGetTri4,
+                handleGetShoulder: this.handleGetShoulder,
+                handleGetShoulder2: this.handleGetShoulder2,
+                handleGetShoulder3: this.handleGetShoulder3,
+                handleGetShoulder4: this.handleGetShoulder4,
+                handleGetShoulder5: this.handleGetShoulder5,
+                handleGetForearms: this.handleGetForearms,
+                handleGetForearms2: this.handleGetForearms2,
+                handleGetForearms3: this.handleGetForearms3,
+                handleGetForearms4: this.handleGetForearms4,
+                handleGetCore: this.handleGetCore,
+                handleGetCore2: this.handleGetCore2,
+                handleGetCore3: this.handleGetCore3,
+                handleGetCore4: this.handleGetCore4,
+                handleGetCore5: this.handleGetCore5,
+                handleGetLegs: this.handleGetLegs,
+                handleGetLegs2: this.handleGetLegs2,
+                handleGetLegs3: this.handleGetLegs3,
+                handleGetLegs4: this.handleGetLegs4,
                 
                 
             }}>
