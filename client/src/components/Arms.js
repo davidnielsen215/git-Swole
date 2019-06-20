@@ -47,35 +47,35 @@ class Arms extends Component {
                         <img className='' alt='' src='' />
                     </div> */}
                     <nav className="button-div">
-                                <button className="button" onClick={this.props.handleGetBi} >Incline Dumbell Press</button>
-                                <button className="button" onClick={this.props.handleGetBi2} >Bench Press</button>
-                                <button className="button" onClick={this.props.handleGetBi3} >Dumbell Bench Press</button>
-                                <button className="button" onClick={this.props.handleGetBi4} >Dips</button>
+                        <button className="button" onClick={this.props.handleGetBi} >Bi</button>
+                        <button className="button" onClick={this.props.handleGetBi2} >Bench Press</button>
+                        <button className="button" onClick={this.props.handleGetBi3} >Dumbell Bench Press</button>
+                        <button className="button" onClick={this.props.handleGetBi4} >Dips</button>
 
-                                {/* {!this.state.isHidden && <Child />} */}
-                            </nav>
-                            <div className="workout-container">
-                                <div className="workout">
-                                    <h2 className="title-work" >{ this.props.biWorkout.title}</h2>
-                                    <h4 className="set-work" >{this.props.biWorkout.set}</h4>
-                                    <h4 className="reps-work" >{ this.props.biWorkout.reps }</h4>
-                                </div>
-                                <div className="workout2">
-                                    <h2 className="title-work">{ this.props.biWorkout2.title}</h2>
-                                    <h4 className="set-work">{ this.props.biWorkout2.set}</h4>
-                                    <h4 className="reps-work">{ this.props.biWorkout2.reps}</h4>
-                                </div>
-                                <div className="workout3">
-                                    <h2 className="title-work" >{this.props.biWorkout3.title}</h2>
-                                    <h4 className="set-work" >{this.props.biWorkout3.set}</h4>
-                                    <h4 className="reps-work" >{ this.props.biWorkout3.reps }</h4>
-                                </div>
-                                <div className="workout4">
-                                    <h2 className="title-work" >{ this.props.biWorkout4.title}</h2>
-                                    <h4 className="set-work" >{this.props.biWorkout4.set}</h4>
-                                    <h4 className="reps-work" >{ this.props.biWorkout4.reps }</h4>
-                                </div>        
-                            </div>
+                        {/* {!this.state.isHidden && <Child />} */}
+                    </nav>
+                    <div className="workout-container">
+                        <div className="workout">
+                            <h2 className="title-work" >{ this.props.biWorkout.title}</h2>
+                            <h4 className="set-work" >{this.props.biWorkout.set}</h4>
+                            <h4 className="reps-work" >{ this.props.biWorkout.reps }</h4>
+                        </div>
+                        <div className="workout2">
+                            <h2 className="title-work">{ this.props.biWorkout2.title}</h2>
+                            <h4 className="set-work">{ this.props.biWorkout2.set}</h4>
+                            <h4 className="reps-work">{ this.props.biWorkout2.reps}</h4>
+                        </div>
+                        <div className="workout3">
+                            <h2 className="title-work" >{this.props.biWorkout3.title}</h2>
+                            <h4 className="set-work" >{this.props.biWorkout3.set}</h4>
+                            <h4 className="reps-work" >{ this.props.biWorkout3.reps }</h4>
+                        </div>
+                        <div className="workout4">
+                            <h2 className="title-work" >{ this.props.biWorkout4.title}</h2>
+                            <h4 className="set-work" >{this.props.biWorkout4.set}</h4>
+                            <h4 className="reps-work" >{ this.props.biWorkout4.reps }</h4>
+                        </div>        
+                    </div>
                     <h3 className="bi-description"> Description:</h3> 
                     <p className='bi-p'>
                         In this 2-part video series of the best bicep and tricep workout, 
