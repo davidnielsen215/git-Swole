@@ -135,35 +135,56 @@ nav {
     margin: 3%;
     width: 10%;
     height: 5%;
-}
-.arms-btn {
+    background: rgb(7, 55, 109);
+ }
+ .legs-btn:hover{
+    background: rgb(42, 106, 209);
+ }
+ .arms-btn {
     display: inline-block;
     text-align: center;
     margin: 3%;
     width: 10%;
     height: 5%;
-}
-.back-btn {
+    background: rgb(7, 55, 109);
+ }
+ .arms-btn:hover{
+    background: rgb(42, 106, 209);
+ }
+ .back-btn {
     display: inline-block;
     justify-content: center;
     margin: 3%;
     width: 10%;
     height: 5%;
-}
-.chest-btn {
+    background: rgb(7, 55, 109);
+ }
+ .back-btn:hover{
+    background: rgb(42, 106, 209);
+ }
+ .chest-btn {
     display: inline-block;
     justify-content: center;
     margin: 3%;
     width: 10%;
     height: 5%;
-}
-.core-btn {
+    background: rgb(7, 55, 109);
+ }
+ .chest-btn:hover{
+    background: rgb(42, 106, 209);
+ }
+ .core-btn {
     display: inline-block;
     text-align: center;
     margin: 3%;
     width: 10%;
     height: 5%;
-} 
+    background: rgb(7, 55, 109);
+ }
+ .core-btn:hover{
+    background: rgb(42, 106, 209);
+ }
+ 
 .title2-back {
     display: inline-grid;
     justify-content: center;
@@ -212,7 +233,7 @@ div.button-div {
     display: inline-grid;
     height: 30vh;
     width: 80vw;
-    background-color: gray;
+    /* background-color: gray; */
     margin-left: 10%;
     
 
@@ -373,4 +394,95 @@ div.button-div {
     margin: 1%;
     justify-content: center;
     padding: 2%;
+}
+.bi-description {
+    color: white;
+}
+.bi-p {
+    color: white;
+}
+.tri-description {
+    color: white;
+}
+.tri-p {
+    color: white;
+}
+.shoulders-description {
+    color: white;
+}
+.shoulders-p {
+    color: white;
+}
+.forearms-description {
+    color: white;
+}
+.forearms-p {
+    color: white;
+}
+.title2-bi{
+    color: white;
+}
+.title2-tri{
+    color: white;
+}
+.title2-shoulders{
+    color: white;
+}
+.title2-forearms{
+    color: white;
+}
+.legs-btn {
+   display: inline-block;
+   text-align: center;
+   margin: 3%;
+   width: 10%;
+   height: 5%;
+   background: rgb(7, 55, 109);
+}
+.legs-btn:hover{
+   background: rgb(42, 106, 209);
+}
+.arms-btn {
+   display: inline-block;
+   text-align: center;
+   margin: 3%;
+   width: 10%;
+   height: 5%;
+   background: rgb(7, 55, 109);
+}
+.arms-btn:hover{
+   background: rgb(42, 106, 209);
+}
+.back-btn {
+   display: inline-block;
+   justify-content: center;
+   margin: 3%;
+   width: 10%;
+   height: 5%;
+   background: rgb(7, 55, 109);
+}
+.back-btn:hover{
+   background: rgb(42, 106, 209);
+}
+.chest-btn {
+   display: inline-block;
+   justify-content: center;
+   margin: 3%;
+   width: 10%;
+   height: 5%;
+   background: rgb(7, 55, 109);
+}
+.chest-btn:hover{
+   background: rgb(42, 106, 209);
+}
+.core-btn {
+   display: inline-block;
+   text-align: center;
+   margin: 3%;
+   width: 10%;
+   height: 5%;
+   background: rgb(7, 55, 109);
+}
+.core-btn:hover{
+   background: rgb(42, 106, 209);
 }
