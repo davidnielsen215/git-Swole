@@ -42,6 +42,15 @@ class GlobalProvider extends Component {
                 forearmsWorkout2: {},
                 forearmsWorkout3: {},
                 forearmsWorkout4: {},
+                coreWorkout: {},
+                coreWorkout2: {},
+                coreWorkout3: {},
+                coreWorkout4: {},
+                coreWorkout5: {},
+                legsWorkout: {},
+                legsWorkout2: {},
+                legsWorkout3: {},
+                legsWorkout4: {},
                 
             }
     }
@@ -343,7 +352,7 @@ class GlobalProvider extends Component {
     }                                          
     handleGetCore = () => {
         console.log("fired")
-        axios.get('/workouts/5d080a080d2edfc2c6a1906b').then(res =>{
+        axios.get('/workouts/5d080acd0d2edfc2c6a1906c').then(res =>{
             console.log(res.data)
             this.setState(prevState => ({
                 coreWorkout: res.data
@@ -353,7 +362,7 @@ class GlobalProvider extends Component {
     }                                          
     handleGetCore2 = () => {
         console.log("fired")
-        axios.get('/workouts/5d080a080d2edfc2c6a1906b').then(res =>{
+        axios.get('/workouts/5d080ae40d2edfc2c6a1906d').then(res =>{
             console.log(res.data)
             this.setState(prevState => ({
                 coreWorkout2: res.data
@@ -363,7 +372,7 @@ class GlobalProvider extends Component {
     }                                          
     handleGetCore3 = () => {
         console.log("fired")
-        axios.get('/workouts/5d080a080d2edfc2c6a1906b').then(res =>{
+        axios.get('/workouts/5d080af30d2edfc2c6a1906e').then(res =>{
             console.log(res.data)
             this.setState(prevState => ({
                 coreWorkout3: res.data
@@ -373,7 +382,7 @@ class GlobalProvider extends Component {
     }                                          
     handleGetCore4 = () => {
         console.log("fired")
-        axios.get('/workouts/5d080a080d2edfc2c6a1906b').then(res =>{
+        axios.get('/workouts/5d080b020d2edfc2c6a1906f').then(res =>{
             console.log(res.data)
             this.setState(prevState => ({
                 coreWorkout4: res.data
@@ -381,6 +390,57 @@ class GlobalProvider extends Component {
 
         })
     }                                          
+    handleGetCore5 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d093de1eb8277e3dafde170').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                coreWorkout5: res.data
+            }))
+
+        })
+    }                                          
+    handleGetLegs = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080c000d2edfc2c6a19070').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                legsWorkout: res.data
+            }))
+
+        })
+    }                                          
+    handleGetLegs2 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080c320d2edfc2c6a19072').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                legsWorkout2: res.data
+            }))
+
+        })
+    }                                          
+    handleGetLegs3 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080c430d2edfc2c6a19073').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                legsWorkout3: res.data
+            }))
+
+        })
+    }                                          
+    handleGetLegs4 = () => {
+        console.log("fired")
+        axios.get('/workouts/5d080c4f0d2edfc2c6a19074').then(res =>{
+            console.log(res.data)
+            this.setState(prevState => ({
+                legsWorkout4: res.data
+            }))
+
+        })
+    }                                          
+                                              
     render(){
         return (
             <Provider value={{
@@ -413,6 +473,15 @@ class GlobalProvider extends Component {
                 forearmsWorkout2: this.handleGetForearms2,
                 forearmsWorkout3: this.handleGetForearms3,
                 forearmsWorkout4: this.handleGetForearms4,
+                coreWorkout: this.handleGetCore,
+                coreWorkout2: this.handleGetCore2,
+                coreWorkout3: this.handleGetCore3,
+                coreWorkout4: this.handleGetCore4,
+                coreWorkout5: this.handleGetCore5,
+                legsWorkout: this.handleGetLegs,
+                legsWorkout2: this.handleGetLegs2,
+                legsWorkout3: this.handleGetLegs3,
+                legsWorkout4: this.handleGetLegs4,
                 
                 
             }}>

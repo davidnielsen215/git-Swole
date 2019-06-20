@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link} from 'react-router-dom'
 // import Home from './Home'
 
+import { withProvider } from './GlobalProvider'
 import Iframe from 'react-iframe'
 import './Styles.css'
 
@@ -33,6 +34,41 @@ class Core extends Component {
                     {/* <div className="core-diagram-container">
                         <img className='' alt='' src='' />
                     </div> */}
+                    <nav className="button-div">
+                        <button className="button" onClick={this.props.handleGetCore} >Deadlifts</button>
+                        <button className="button" onClick={this.props.handleGetCore2} >Bench Press</button>
+                        <button className="button" onClick={this.props.handleGetCore3} >Dumbell Bench Press</button>
+                        <button className="button" onClick={this.props.handleGetCore4} >Dips</button>
+                       
+                        {/* {!this.state.isHidden && <Child />} */}
+                    </nav>
+                    <div className="workout-container">
+                        <div className="workout">
+                            <h2 className="title-work">{this.props.coreWorkout.title}</h2>
+                            <h4 className="set-work" >{this.props.coreWorkout.set}</h4>
+                            <h4 className="reps-work" >{ this.props.coreWorkout.reps }</h4>
+                        </div>
+                        <div className="workout2">
+                            <h2 className="title-work">{ this.props.coreWorkout2.title}</h2>
+                            <h4 className="set-work">{ this.props.coreWorkout2.set}</h4>
+                            <h4 className="reps-work">{ this.props.coreWorkout.reps}</h4>
+                        </div>
+                        <div className="workout3">
+                            <h2 className="title-work" >{this.props.coreWorkout3.title}</h2>
+                            <h4 className="set-work" >{this.props.coreWorkout3.set}</h4>
+                            <h4 className="reps-work" >{ this.props.coreWorkout3.reps }</h4>
+                        </div>
+                        <div className="workout4">
+                            <h2 className="title-work" >{ this.props.coreWorkout4.title}</h2>
+                            <h4 className="set-work" >{this.props.coreWorkout4.set}</h4>
+                            <h4 className="reps-work" >{ this.props.coreWorkout4.reps }</h4>
+                        </div>
+                        <div className="workout5">
+                            <h2 className="title-work" >{ this.props.coreWorkout5.title}</h2>
+                            <h4 className="set-work" >{this.props.coreWorkout5.set}</h4>
+                            <h4 className="reps-work" >{ this.props.coreWorkout5.reps }</h4>
+                        </div>
+                    </div>
                     <h3 className="core-description"> Description:</h3>
                     <p className='core-p'>
                         If you want a well-defined, impressive looking six pack then you need to 
@@ -53,4 +89,4 @@ class Core extends Component {
     }
 }
 
-export default Core;
+export default withProvider(Core);

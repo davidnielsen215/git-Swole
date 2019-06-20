@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { Link} from 'react-router-dom'
 // import Home from './Home'
 
+import { withProvider } from './GlobalProvider'
 import Iframe from 'react-iframe'
 import './Styles.css'
-import {withProvider} from "./GlobalProvider"
+
 
 
 class Legs extends Component {
@@ -32,6 +33,38 @@ class Legs extends Component {
                     </div>
                     <div className="legs-diagram-container">
                         Diagram
+                    </div>
+                    <nav className="button-div">
+                        <button className="button" onClick={this.props.handleGetLegs} >Incline Dumbell Press</button>
+                        <button className="button" onClick={this.props.handleGetLegs2} >Bench Press</button>
+                        <button className="button" onClick={this.props.handleGetLegs3} >Dumbell Bench Press</button>
+                        <button className="button" onClick={this.props.handleGetLegs4} >Dips</button>
+                        
+
+                        {/* {!this.state.isHidden && <Child />} */}
+                    </nav>
+                    <div className="workout-container">
+                        <div className="workout">
+                            <h2 className="title-work" >{ this.props.legsWorkout.title}</h2>
+                            <h4 className="set-work" >{this.props.legsWorkout.set}</h4>
+                            <h4 className="reps-work" >{ this.props.legsWorkout.reps }</h4>
+                        </div>
+                        <div className="workout2">
+                            <h2 className="title-work">{ this.props.legsWorkout2.title}</h2>
+                            <h4 className="set-work">{ this.props.legsWorkout2.set}</h4>
+                            <h4 className="reps-work">{ this.props.legsWorkout2.reps}</h4>
+                        </div>
+                        <div className="workout3">
+                            <h2 className="title-work" >{this.props.legsWorkout3.title}</h2>
+                            <h4 className="set-work" >{this.props.legsWorkout3.set}</h4>
+                            <h4 className="reps-work" >{ this.props.legsWorkout3.reps }</h4>
+                        </div>
+                        <div className="workout4">
+                            <h2 className="title-work" >{ this.props.legsWorkout4.title}</h2>
+                            <h4 className="set-work" >{this.props.legsWorkout4.set}</h4>
+                            <h4 className="reps-work" >{ this.props.legsWorkout4.reps }</h4>
+                        </div>
+                        
                     </div>
                     <h3 className="legs-description"> Description:</h3> 
                     <p className='legs-p'>

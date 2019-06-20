@@ -52,7 +52,7 @@ class Chest extends Component {
                             {/* <div className="chest-diagram-container">
                                 <img className='' alt='' src='' />
                             </div> */}
-                            <div className="button-div">
+                            <nav className="button-div">
                                 <button className="button" onClick={this.props.handleGetChest} >Incline Dumbell Press</button>
                                 <button className="button" onClick={this.props.handleGetChest2} >Bench Press</button>
                                 <button className="button" onClick={this.props.handleGetChest3} >Dumbell Bench Press</button>
@@ -61,8 +61,8 @@ class Chest extends Component {
                                 <button className="button" onClick={this.props.handleGetChest6} >Cable Crossover</button>
 
                                 {/* {!this.state.isHidden && <Child />} */}
-                            </div>
-                            <div>
+                            </nav>
+                            <div className="workout-container">
                                 <div className="workout">
                                     <h2 className="title-work" >{ this.props.chestWorkout.title}</h2>
                                     <h4 className="set-work" >{this.props.chestWorkout.set}</h4>
