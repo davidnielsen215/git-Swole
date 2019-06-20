@@ -16,19 +16,19 @@ class Home extends Component {
     render() {
         console.log(this.props)
         return (
-            <div>
-                <h1 className='title-home'>
+            <div style={{backgroundImage:`url(https://images.unsplash.com/photo-1526466544063-8eefafdb4830?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80)`}}>
+                <h1 className='title-home' style={{backgroundImage:`url(https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)`}}>
                     Git Swølé
-                    <img alt='' className='dumbell' src="https://img.icons8.com/ios/50/000000/dumbbell-filled.png" />
+                    <img alt='' className='dumbell' src="https://midwestfit.com/img/workout_challenge-light.png" />
                 </h1>
                 
                 
                 <nav>
-                    <Link className="legs-btn" to='/legs'>Legs page</Link>
-                    <Link className="arms-btn" to='/arms'>Arms page</Link>
-                    <Link className="back-btn" to='/back'>Back page</Link>
-                    <Link className="chest-btn" to='/chest'>Chest page</Link>
-                    <Link className="core-btn" to='/core'>Core page</Link>
+                    <Link className="legs-btn" to='/legs'>LEGS</Link>
+                    <Link className="arms-btn" to='/arms'>ARMS</Link>
+                    <Link className="back-btn" to='/back'>BACK</Link>
+                    <Link className="chest-btn" to='/chest'>CHEST</Link>
+                    <Link className="core-btn" to='/core'>CORE</Link>
                 </nav>
                 
                 <div className="icon-container">
