@@ -38,7 +38,7 @@ class Back extends Component {
                     {/* <div className="back-diagram-container">
                         <img className='' alt='' src='' />
                     </div> */}
-                    <div className="button-div">
+                    <nav className="button-div">
                         <button className="button" onClick={this.props.handleGetBack} >Deadlifts</button>
                         <button className="button" onClick={this.props.handleGetBack2} >Bench Press</button>
                         <button className="button" onClick={this.props.handleGetBack3} >Dumbell Bench Press</button>
@@ -46,7 +46,7 @@ class Back extends Component {
                         <button className="button" onClick={this.props.handleGetBack5} >Banded Push-ups</button>
 
                         {/* {!this.state.isHidden && <Child />} */}
-                    </div>
+                    </nav>
                     <div className="workout-container">
                         <div className="workout">
                             <h2 className="title-work">{this.props.backWorkout.title}</h2>

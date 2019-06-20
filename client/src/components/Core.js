@@ -34,14 +34,14 @@ class Core extends Component {
                     {/* <div className="core-diagram-container">
                         <img className='' alt='' src='' />
                     </div> */}
-                    <div className="button-div">
+                    <nav className="button-div">
                         <button className="button" onClick={this.props.handleGetCore} >Deadlifts</button>
                         <button className="button" onClick={this.props.handleGetCore2} >Bench Press</button>
                         <button className="button" onClick={this.props.handleGetCore3} >Dumbell Bench Press</button>
                         <button className="button" onClick={this.props.handleGetCore4} >Dips</button>
                        
                         {/* {!this.state.isHidden && <Child />} */}
-                    </div>
+                    </nav>
                     <div className="workout-container">
                         <div className="workout">
                             <h2 className="title-work">{this.props.coreWorkout.title}</h2>
