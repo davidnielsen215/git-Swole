@@ -16,7 +16,7 @@ class Home extends Component {
     render() {
         console.log(this.props)
         return (
-            <div style={{backgroundImage:`url(https://images.unsplash.com/photo-1526466544063-8eefafdb4830?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80)`}}>
+            <div className="home-pic" style={{ backgroundImage:`url(https://image.shutterstock.com/image-vector/seamless-sport-pattern-on-transparent-450w-568705420.jpg)`}}>
                 <h1 className='title-home' style={{backgroundImage:`url(https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)`}}>
                     Git Swølé
                     <img alt='' className='dumbell' src="https://midwestfit.com/img/workout_challenge-light.png" />
