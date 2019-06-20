@@ -106,6 +106,7 @@
     margin-top: 4%;
     display: grid;
     justify-content: center;
+    color: black
 }
 .title-back {
     margin-top: 4%;
@@ -232,7 +233,7 @@ div.button-div {
 .title2-chest {
     display: inline-grid;
     justify-content: center;
-    /* margin: 10%; */
+    color: black;
     width: 100%;
 }
 .chest-vid-container {
@@ -270,6 +271,7 @@ div.button-div {
     justify-content: center;
     margin: 10%;
     width: 80vw;
+    
 }
 .legs-vid-container {
     display: inline-grid;
@@ -303,13 +305,13 @@ div.button-div {
     display: inline-flex;
     width: 100%;
     height: 100%;
-    background-color: purple;
+    background-color: grey;
 
 }
 .workout {
     display: inline-flex;
     width: 94%;
-    background-color: orange;
+    background-color: navy;
     margin: 1%;
     justify-content: center;
     padding: 2%;
@@ -320,7 +322,7 @@ div.button-div {
     margin: 1%;
     justify-content: center;
     padding: 2%;
-    background-color: green;
+    background-color: navy;
     
 }
 .workout3 {
@@ -329,19 +331,19 @@ div.button-div {
     margin: 1%;
     justify-content: center;
     padding: 2%;
-    background-color: blue;
+    background-color: navy;
    
 }
 .workout4 {
     display: inline-flex;
-    width: 94%;    background-color: yellow;
+    width: 94%;    background-color: navy;
     margin: 1%;
     justify-content: center;
     padding: 2%;
 }
 .workout5 {
     display: inline-flex;
-    width: 94%;    background-color: pink;
+    width: 94%;    background-color: navy;
     margin: 1%;
     justify-content: center;
     padding: 2%;

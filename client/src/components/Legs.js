@@ -31,9 +31,7 @@ class Legs extends Component {
                         allowfullscreen>
                     </Iframe>
                     </div>
-                    <div className="legs-diagram-container">
-                        Diagram
-                    </div>
+                    
                     <nav className="button-div">
                         <button className="button" onClick={this.props.handleGetLegs} >Incline Dumbell Press</button>
                         <button className="button" onClick={this.props.handleGetLegs2} >Bench Press</button>
